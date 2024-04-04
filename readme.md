@@ -1,8 +1,8 @@
-# GAME
+# GAME ❤🤣😍😊😆😃
 
 
 ## Prologue: Contains game synopsis and preview
-### Dramatic effects (fire emoji, explosion emoji)
+### Dramatic effects (🔥, 💥)
 
 #
 
@@ -13,6 +13,15 @@
 #
 
 ## Player spawns in Maingrounds (big place with no deadly stuff)
+### Moves up = w, Moves down = s, Moves Right = d, Moves Left = a
+
+#
+
+## Map:
+### Mainground (Safe Place), no entities spawn, has a shop area, 
+### Tundra 1 (requires level 0 to explore)
+### Desert 1(requires level 7 to explore)
+
 
 #
 
@@ -23,24 +32,41 @@
 
 ### If middle of a battle, pulls up the BATTLE tutorial
 #### Battle Tutorial:
-#### Tackle = w, defense = d, melee = r, ultimate = a, charge up = s, quit battle = q (lose some glowstone), 
+#### Tackle = j, defense = i, melee = k, ultimate = l, charge up = o, quit battle = p (lose 50 glowstone), 
 #### Battle Energy: Refills 1 automatically every round, player starts with 3
 #### Tackle: Costs 1, defense = 1, melee = 2, ultimate = 4, charge up = +2
 
 #
 
 ## Daily Login: Claim
-### "Your weekly streak: 1. You earn 400 glowstones" adds 100 each day on 7th: it grants 1500 adn then it resets
+### "Your weekly streak: 1. You earn 400 glowstones" adds 100 each day on 7th: it grants 1500 and then it resets
 
 #
 
 
 ## SHOP:
-### Roll ticket: 1000 glowstones
+### Roll ticket: 1000 Glowstones (Rolls 3 per ticket)
+### Pet Ticket: 450 Glowstones (Only 1 pet)
+###
+
+# 
+## Pets
+### ??? = Rice Bowl, Shadow Dragon, Light Dragon, 
+### Mythical = Unicorn, Dragon, Pheonix, Alicorn
+### Legendary = Griffin, Kitsune, Walrus, Nessie, Chimera, Cerberus
+### Ultra = Panda, Gorilla, Quokka, Chameleon, Goose
+### Epic = Wolf, Reindeer, Cow, Penguin, Axolotl, Horse
+### Rare = Raccoon, Duck, Butterfly, Rabbit, Fox
+### Common = Dog, Cat, Mouse, Squirrel, Pigeon
+
+#
+
 ### Each roll grants you three armor / weapon
 ### Armor drop rates: ???: 0.05%, Mythical:  1,95%, legendary: 5.5%, ultra: 10%, epic: 17.5%, rare: 27.5%, common: 37.5%
 ### Weapon drop rates: ???: 0.05%, Mythical:  1,95%, legendary: 5.5%, ultra: 10%, epic: 17.5%, rare: 27.5%, common: 37.5%
 ### Pet: Roulette 2500 glowstones
+
+#
 
 ## Armor and weapons:
 ### armor:
