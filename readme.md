@@ -39,7 +39,7 @@
 #
 
 ## Daily Login: Claim
-### "Your weekly streak: 1. You earn 400 glowstones" adds 100 each day on 7th: it grants 1500 and then it resets
+### "Your weekly streak: 1. You earn 400 glowstones" adds 100 each day on 7th: it grants 1500 and th en it resets
 
 #
 
@@ -64,7 +64,7 @@
 ### Each roll grants you three armor / weapon
 ### Armor drop rates: ???: 0.05%, Mythical:  1,95%, legendary: 5.5%, ultra: 10%, epic: 17.5%, rare: 27.5%, common: 37.5%
 ### Weapon drop rates: ???: 0.05%, Mythical:  1,95%, legendary: 5.5%, ultra: 10%, epic: 17.5%, rare: 27.5%, common: 37.5%
-### Pet: Roulette 2500 glowstones
+### Pet drop rates: ???: 0.05%, Mythical:  1,95%, legendary: 5.5%, ultra: 10%, epic: 17.5%, rare: 27.5%, common: 37.5%
 
 #
 
@@ -92,3 +92,5 @@
 
 ## Spawn and give the user options to do stuff
 ## 
+
+## You can walk through grass at any given moment. However, to frolick / touch grass, press f to interact. There is a 5% of a jumpscare, which in you have a 10
