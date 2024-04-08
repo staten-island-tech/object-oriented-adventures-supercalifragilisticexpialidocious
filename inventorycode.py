@@ -1,6 +1,6 @@
 import json
 
-class Save:
+class Inventory:
     def LoadJson(self):
         with open("./inventory.json", "r") as f:
             data = json.load(f)
