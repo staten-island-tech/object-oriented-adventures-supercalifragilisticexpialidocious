@@ -1,4 +1,4 @@
-import json, time, Reminderforhowtosavestufftojson
+import json, time
 
 with open("./inventory.json", "r") as f:
     inventory = json.load(f) #weapons, pets, badges, armor
