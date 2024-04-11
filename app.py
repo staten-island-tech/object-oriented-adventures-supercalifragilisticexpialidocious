@@ -6,12 +6,14 @@ with open("./profile.json", "r") as f:
     profile = json.load(f) # profile is name, health, glowstones
 usernames = open("./users.json", encoding="utf8")
 user = json.load(usernames)
-#write code here
+#username first:
 
 
 
+# if new show the beginning of the game:
 
 
+#code game here! :
 
 
 with open("inventory.json", "w") as f:
