@@ -52,7 +52,12 @@ print("???: !!pu ekaW")
 sleep(1)
 print("???: !!WON pu ekaW")
 sleep(1)
+print("*You wake up on wet floor*")
+sleep(1)
+begin = input("[1] > Who are you?\n[2] > Where am I?")
+if begin == "1":
 
+"??? -> Nymph"
 
 #code game here! :
 
