@@ -5,8 +5,8 @@ def anim(text, delay=0.0375):
         print(char, end='', flush=True)
         time.sleep(delay)
     print()
-x = "\n" * 10
-print(x)
+clear = "\n" * 35
+print(clear)
 
 
 cache = ""
@@ -35,21 +35,35 @@ time.sleep(1)
 def fullscreenprompt():
     anim("\n\n")
     def terminalfullscreen():
+        global cache
         anim("                                                             IS   Y O U R   T E R M I N A L   C U R R E N T L Y   O N   F U L L   S C R E E N ?    \n")
         time.sleep(1)
         a = input("                                                           ---------------------------------------------------------------------------------------    \n\n                                                                          [1] Y E S                  |                  [2] N O                         \n")
         if a == '2':
-            anim("\n\n\n\n\n                                            THIS GAME IS MEANT TO BE PLAYED IN FULL SCREEN — drag the top of your terminal box to the very top of your display.     ")
+            print(clear)
+            cache = f"\n\n\n"
+            anim("                                            THIS GAME IS MEANT TO BE PLAYED IN FULL SCREEN — drag the top of your terminal box to the very top of your display.     \n")
+            terminalfullscreen()
         elif a == '1':
             pass
         else:
-            anim("\n\n\n\n\n                                                               PLEASE ONLY PICK CHOICES [1] OR [2]! - [1] for YES, and [2] for NO.     ")
+            anim("\n\n\n\n\n                                                               PLEASE ONLY PICK CHOICES [1] OR [2]! - [1] for YES, and [2] for NO.     \n")
             terminalfullscreen()
     terminalfullscreen()
 fullscreenprompt()
 
+def loadinganimation(iterations=1):
+    chars = "/—\\|"
+    for _ in range(iterations):
+        for char in chars:
+            sys.stdout.write(f"\rLoading {char}")
+            sys.stdout.flush()
+            time.sleep(0.25)
+
 def beginninggraphic():
-    print('                                                                          ______                     _ _      ')
+    print(clear)
+    loadinganimation(4)
+    print('\n\n\n\n\n                                                                          ______                     _ _      ')
     print('                                                                          | ___ \                   (_) |  _  ')
     print('                                                                          | |_/ /   _ _ __ ___ _   _ _| |_(_) ')
     print("                                                                          |  __/ | | | '__/ __| | | | | __|   ")
