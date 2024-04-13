@@ -56,8 +56,7 @@ print("*You wake up on wet floor*")
 sleep(1)
 begin = input("[1] > Who are you?\n[2] > Where am I?")
 if begin == "1":
-
-"??? -> Nymph"
+    pass
 
 #code game here! :
 
