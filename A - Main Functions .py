@@ -18,7 +18,7 @@ class UserManager:
         """
         Loads user data from a JSON file.
         """
-        file_path = 'Users.json'
+        file_path = 'users.json'
         if os.path.exists(file_path):
             try:
                 with open(file_path, 'r') as file:
@@ -63,19 +63,20 @@ class UserManager:
         Logs in an existing user.
         """
         username = anim(input("USERNAME:\n\n"))
-        if username not in self.users:
-            anim("USER DOES NOT EXIST!\n\n")
-            time.sleep(2)
-            self.login()
-
-        password = anim(input("PASSWORD:\n\n"))
-        hashed_password = self._hash_password(password)
-        if self.users[username] == hashed_password:
-            anim("LOG IN SUCCESS!")
-            return True
-        else:
-            anim("PASSWORD IS INCORRECT")
-            return False
+        for i in self.users:
+        
+            if username not in i["username"]:
+                anim("USER DOES NOT EXIST!\n\n")
+                time.sleep(2)
+                self.login()
+            password = anim(input("PASSWORD:\n\n"))
+            hashed_password = self._hash_password(password)
+            if i["password"] == hashed_password:
+                anim("LOG IN SUCCESS!")
+                return True
+            else:
+                anim("PASSWORD IS INCORRECT")
+                return False
 
 
 class Game:
@@ -94,7 +95,7 @@ class Game:
         anim("\n\n")
         
         def terminalfullscreen():
-            anim("                                                             IS   Y O U R   T E R M I N A L   C U R R E N T L Y   O N   F U L L   S C R E E N ?    \n")
+            anim("                                                            I S   Y O U R   T E R M I N A L   C U R R E N T L Y   O N   F U L L   S C R E E N ?    \n")
             time.sleep(1)
             a = input("                                                           ---------------------------------------------------------------------------------------    \n\n                                                                          [1] Y E S                  |                  [2] N O                         \n")
             if a == '2':
