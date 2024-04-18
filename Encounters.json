@@ -1,0 +1,51 @@
+[
+    {
+        "Realm": "Tundra 1",
+        "LevelReq": "0",
+        "Enemies": [
+            {
+                "Name": "Arctic Fox",
+                "Hp": 100,
+                "Attack": 10,
+                "Glowstones": 50
+            },
+            {
+                "Name": "Snow Leopard",
+                "Hp": 100,
+                "Attack": 10,
+                "Glowstones": 50
+            },
+            {
+                "Name": "Polar Bear",
+                "Hp": 100,
+                "Attack": 10,
+                "Glowstones": 50
+                
+            },
+            {
+                "Name": "Elk",
+                "Hp": 100,
+                "Attack": 10,
+                "Glowstones": 50
+            },
+            {
+                "Name": "Eagle",
+                "Hp": 100,
+                "Attack": 10,
+                "Glowstones": 50
+            }
+        ]
+    },
+    {
+        "Realm": "Tundra 2",
+        "LevelReq": "0",
+        "Enemies": [
+            {
+                "Name": "Artic fox",
+                "Hp": "100",
+                "Attack": "10",
+                "Glowstones": "50"
+            }
+        ]
+    }
+]
