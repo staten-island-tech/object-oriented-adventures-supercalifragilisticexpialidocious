@@ -1,0 +1,115 @@
+[
+    {
+        "Armor": "Armors",
+        "Cost": 1000,
+        "Armors": 
+        [
+            {
+                "ArmorName": "Raincoat",
+                "Rarity": "Common",
+                "Protection": 1.075,
+                "Description": "Quirky hydrophobic coat. +7.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Mushroom Armor",
+                "Rarity": "Common",
+                "Protection": 1.075,
+                "Description": "'Shrooms are fungi that are shaped like umbrellas. Why are you wearing it? +7.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Steel Armor",
+                "Rarity": "Common",
+                "Protection": 1.075,
+                "Description": "Seems to have come from car bodies, and building frames. +7.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Rubber Eraser",
+                "Rarity": "Common",
+                "Protection": 1.075,
+                "Description": "If wearing mushrooms wasnt weird, wearing an eraser is. Are you good? +7.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Polaroid Armor",
+                "Rarity": "Common",
+                "Protection": 1.075,
+                "Description": "You think wearing Polaroid Cameras polymorphs you into cameramen from Skobodo Toilet. +7.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Energy Armor",
+                "Rarity": "Rare",
+                "Protection": 1.125,
+                "Description": "Swirly massless yellow whirlies steadily increasing your adrenaline. It's pretty deflective though. +12.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Punk Armor",
+                "Rarity": "Rare",
+                "Protection": 1.125,
+                "Description": "The Jojo Siwa Karma set up. No lesbian or straight wants you. +12.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Boulder",
+                "Rarity": "Rare",
+                "Protection": 1.125,
+                "Description": "A large rock. Pretty snug for a rock. +12.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Porcelain Armor",
+                "Rarity": "Rare",
+                "Protection": 1.125,
+                "Description": "Fragile armor, but has pretty privilege. +12.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Hockey Jersey",
+                "Rarity": "Rare",
+                "Protection": 1.125,
+                "Description": "Is this even armor? You feel your muscles swell. +12.5% PROTECTION"
+            },
+            {
+                "ArmorName": "Duals Gear",
+                "Rarity": "Epic",
+                "Protection": 1.2,
+                "Description": "An armor for two! Your durability has seemingly doubled... +20.0% PROTECTION"
+            },
+            {
+                "ArmorName": "Frosted Gear",
+                "Rarity": "Epic",
+                "Protection": 1.2,
+                "Description": "Gear at subzero temperature... you're not affected. Can instantaneously freeze stuff upon contact. +20.0% PROTECTION"
+            },
+            {
+                "ArmorName": "Fire Armor",
+                "Rarity": "Epic",
+                "Protection": 1.2,
+                "Description": "Flaming protection burning at a thousand degrees. Can melt MOST stuff! +20.0% PROTECTION"
+            },
+            {
+                "ArmorName": "Fire Armor",
+                "Rarity": "Epic",
+                "Protection": 1.2,
+                "Description": "Inherited from a brethren mauderer from thousands of years ago. You inherited their spirit. +20.0% PROTECTION"
+            },
+            {
+                "ArmorName": "Plasma Armor",
+                "Rarity": "Epic",
+                "Protection": 1.2,
+                "Description": "Not a liquid, solid, nor a gas. How was this even made? +20.0% PROTECTION"
+            },
+            {
+                "ArmorName": "Draconyx Gear",
+                "Rarity": "Ultra",
+                "Protection": 1.275,
+                "Description": " +27.5% PROTECTION"
+            }
+        ]
+    }
+]
+
+
+### ??? = Valhalla Armor, Pyrium Armor
+### Mythical = Onyx Armor, Ocean Armor, Marshmellow costume
+### Legendary = BIGG WATERMELON, Sun shield
+### Ultra = Draconyx gear, Phoenix armor, Mechanic gear, moon shield, Thunder gear
+### Epic = Duals gear, Frosted armor, Fire armor, Raider's gear, Plasma armor
+### Rare = Energy armor, punk gear, Boulder, Porcelain armor, Hockey jersey
+### Common = raincoat, Mushroom armor, steel armor, Rubber eraser, polaroid armor
+#
