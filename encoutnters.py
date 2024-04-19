@@ -12,14 +12,17 @@ class Entitty:
     def info(self):
         return (f'{self.name}, {self.type}, hp = {self.hp}, attack = {self.attack}')
     def createPokemon(self):
-        realm = input("what realm is it? \n")
-        lvlreq = input("what lvl does it require?\n")
+        realm = input("What realm is it? \n>")
+        lvlreq = input("What lvl does it require?\n>")
         enemy = input("Enemies?\n>")
         while enemy.upper() == "Y":
             name = input("What is the enitity's name? \n>")
             attack = input("How much damage does the entity's attack do? \n>")
-            glow = input("How much glowstones does it drop?\n")
-            hp = input("what hp is the enitty\n")
+            glow = input("How much glowstones does it drop?\n>")
+            hp = input("what hp is the enitty\n>")
+            enemy = input("More?\n>")
+        else:
+            pass
 
         Realms = {
             "Realm" : realm,
