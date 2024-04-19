@@ -1,16 +1,12 @@
 import json
 import os
 ## Create Class for creating new dictionaries here
-menu = input("What do you want to do? \n(1) Add pokemon to the dictionary ")
+menu = input("What do you want to do? \n(1) Add item to the dictionary ")
 
 with open("Encounters.json", "r") as f:
     data = json.load(f)
 
 class Entitty:
-    def __init__(self):
-        pass
-    def info(self):
-        return (f'{self.name}, {self.type}, hp = {self.hp}, attack = {self.attack}')
     def createPokemon(self):
         realm = input("What realm is it? \n>")
         lvlreq = input("What lvl does it require?\n>")
@@ -43,9 +39,9 @@ p = Entitty()
        
 while menu == "1":
      p.createPokemon()
-     o = input("Do you want to add another pokemon? Y|N\n>")
+"""      o = input("Do you want to add another pokemon? Y|N\n>")
      if o.upper() == "N" :
-         break
+         break """
 
 
 
