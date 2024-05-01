@@ -37,79 +37,187 @@
             {
                 "ArmorName": "Energy Armor",
                 "Rarity": "Rare",
-                "Protection": 1.125,
-                "Description": "Swirly massless yellow whirlies steadily increasing your adrenaline. It's pretty deflective though. +12.5% PROTECTION"
+                "Protection": 1.15,
+                "Description": "Swirly massless yellow whirlies steadily increasing your adrenaline. It's pretty deflective though. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Punk Armor",
                 "Rarity": "Rare",
-                "Protection": 1.125,
-                "Description": "The Jojo Siwa Karma set up. No lesbian or straight wants you. +12.5% PROTECTION"
+                "Protection": 1.15,
+                "Description": "The Jojo Siwa Karma rizzless equipment. No lesbian nor straight wants you. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Boulder",
                 "Rarity": "Rare",
-                "Protection": 1.125,
-                "Description": "A large rock. Pretty snug for a rock. +12.5% PROTECTION"
+                "Protection": 1.15,
+                "Description": "A large rock. Pretty snug for a rock. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Porcelain Armor",
                 "Rarity": "Rare",
-                "Protection": 1.125,
-                "Description": "Fragile armor, but has pretty privilege. +12.5% PROTECTION"
+                "Protection": 1.15,
+                "Description": "Fragile armor, but has pretty privilege. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Hockey Jersey",
                 "Rarity": "Rare",
-                "Protection": 1.125,
-                "Description": "Is this even armor? You feel your muscles swell. +12.5% PROTECTION"
+                "Protection": 1.15,
+                "Description": "Is this even armor? You feel your muscles swell. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Duals Gear",
                 "Rarity": "Epic",
-                "Protection": 1.2,
-                "Description": "An armor for two! Your durability has seemingly doubled... +20.0% PROTECTION"
+                "Protection": 1.3,
+                "Description": "An armor for two! Your durability has seemingly doubled... +30.0% PROTECTION"
             },
             {
                 "ArmorName": "Frosted Gear",
                 "Rarity": "Epic",
-                "Protection": 1.2,
-                "Description": "Gear at subzero temperature... you're not affected. Can instantaneously freeze stuff upon contact. +20.0% PROTECTION"
+                "Protection": 1.3,
+                "Description": "Gear at subzero temperature... you're not affected. Can instantaneously freeze stuff upon contact. +30.0% PROTECTION"
             },
             {
                 "ArmorName": "Fire Armor",
                 "Rarity": "Epic",
-                "Protection": 1.2,
-                "Description": "Flaming protection burning at a thousand degrees. Can melt MOST stuff! +20.0% PROTECTION"
+                "Protection": 1.3,
+                "Description": "Flaming protection burning at a thousand degrees. Can melt MOST stuff! +30.0% PROTECTION"
             },
             {
-                "ArmorName": "Fire Armor",
+                "ArmorName": "Raider's Armor",
                 "Rarity": "Epic",
-                "Protection": 1.2,
-                "Description": "Inherited from a brethren mauderer from thousands of years ago. You inherited their spirit. +20.0% PROTECTION"
+                "Protection": 1.3,
+                "Description": "Inherited from a brethren mauderer from thousands of years ago. You inherited their spirit. +30.0% PROTECTION"
             },
             {
                 "ArmorName": "Plasma Armor",
                 "Rarity": "Epic",
-                "Protection": 1.2,
-                "Description": "Not a liquid, solid, nor a gas. How was this even made? +20.0% PROTECTION"
+                "Protection": 1.3,
+                "Description": "Not a liquid, solid, nor a gas. How was this forged? +30.0% PROTECTION"
             },
             {
                 "ArmorName": "Draconyx Gear",
                 "Rarity": "Ultra",
-                "Protection": 1.275,
-                "Description": " +27.5% PROTECTION"
-            }
+                "Protection": 1.45,
+                "Description": "Inherited from ancient battling mages and powerful wizards. It fits you perfectly. +45.0% PROTECTION"  }
         ]
+    },
+    {
+        "Weapon": "Weapons",
+        "Cost": 1000,
+        "Weapons":
+        [ 
+            {
+                "WeaponName": "Umbrella",
+                "Rarity": "Common",
+                "AttackPower": 1.075,
+                "Description": "Complimentary double-usage stick to go with your hydrophobic coat. +7.5% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Long Fungus",
+                "Rarity": "Common",
+                "AttackPower": 1.075,
+                "Description": "Very very very long mushroom. Awesome for whacking. +7.5% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Hammer",
+                "Rarity": "Common",
+                "AttackPower": 1.075,
+                "Description": "A hammer! You're supposed to use it to hammer down nails. +7.5% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Pencil",
+                "Rarity": "Common",
+                "AttackPower": 1.075,
+                "Description": "Some may say the pencil is stronger than the sword, or something like that. +7.5% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Selfie Stick",
+                "Rarity": "Common",
+                "AttackPower": 1.075,
+                "Description": "Fantastic for when your enemy has body dysmorphia. +7.5% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Energy Staff",
+                "Rarity": "Rare",
+                "AttackPower": 1.45,
+                "Description": "Did you know that a typical microwave uses more electricity to keep its digital clock on standby than it does heating food? +45.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Rock Guitar",
+                "Rarity": "Rare",
+                "AttackPower": 1.45,
+                "Description": "You may choose between earbleed or to smash it on your opponent's head. +45.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Big Scissors",
+                "Rarity": "Rare",
+                "AttackPower": 1.45,
+                "Description": "Why would anyone need big scissors in any occasion? +45.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Big Pokey Fork",
+                "Rarity": "Rare",
+                "AttackPower": 1.45,
+                "Description": "...Or you can just call it a pitchfork. +45.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Hockey Stick",
+                "Rarity": "Rare",
+                "AttackPower": 1.45,
+                "Description": "Except you're not gonna play hockey with it. +45.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Dual Blade",
+                "Rarity": "Epic",
+                "AttackPower": 1.6,
+                "Description": "Not just one blade, but TWO BIG BLADES! +60.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Frosted Spear",
+                "Rarity": "Epic",
+                "AttackPower": 1.6,
+                "Description": "A freezing powerful weapon that radiates snowflakes. Somehow you are unaffected. +60.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Flame Staff",
+                "Rarity": "Epic",
+                "AttackPower": 1.6,
+                "Description": "Radiates with large powerful scroching flames. Perfect for toasting your Marshmallow Armor. +60.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Raider's Staff",
+                "Rarity": "Epic",
+                "AttackPower": 1.6,
+                "Description": "The powerful ancient staff inherited from ancient mauderers... +60.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Plasma Drill",
+                "Rarity": "Epic",
+                "AttackPower": 1.6,
+                "Description": "Neither liquid, nor solid, nor gas. Just a very spinny drill capable of some serious damage. +60.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Vallaha Staff",
+                "Rarity": "???",
+                "AttackPower": 2.5,
+                "Description": "The big strong staff for big strong warriors. +250.0% ATTACK POWER"
+            },
+            {
+                "WeaponName": "Pyrium Staff",
+                "Rarity": "???",
+                "AttackPower": 2.5,
+                "Description": "What does Pyrium even mean the coders just thought the word was cool. +250.0% ATTACK POWER"
+            }
+        ] 
     }
 ]
 
 
-### ??? = Valhalla Armor, Pyrium Armor
-### Mythical = Onyx Armor, Ocean Armor, Marshmellow costume
-### Legendary = BIGG WATERMELON, Sun shield
-### Ultra = Draconyx gear, Phoenix armor, Mechanic gear, moon shield, Thunder gear
-### Epic = Duals gear, Frosted armor, Fire armor, Raider's gear, Plasma armor
-### Rare = Energy armor, punk gear, Boulder, Porcelain armor, Hockey jersey
-### Common = raincoat, Mushroom armor, steel armor, Rubber eraser, polaroid armor
-#
+### Weapons =
+### ??? = Valhalla Staff, Pyrium Staff
+### Mythical = Onyx Staff, Trident, S'mores wand
+### Legendary = Watermelon on a stick, Sun Orb staff
+### Ultra = Draconyx, Phoenix Talon, Mechano Mace, Moon wand, Thunderbuster
+### Epic = Dual blade, Frosted Spear, Flame staff, Raider's staff, Plasma Drill
+### Rare = Energy staff, Rock guitar, Big Scissors, Poke Fork, Hockey stick
+### Common = Umbrella, Long Fungus, Hammer, Pencil, selfie stick
