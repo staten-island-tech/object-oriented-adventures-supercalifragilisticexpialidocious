@@ -641,7 +641,323 @@
 
     },
     {
-        "Realm": "Atlantis",
+        "Realm": "Jungle City 2",
+        "LevelReq": 23,
+        "Enemies": [
+            {
+                "Name": "Chimera",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Nymph",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Goldhorn",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Giant Hawk",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Gargoyle",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "GIANT LEAF DRAGON",
+                "Hp": 800,
+                "Attack": 50,
+                "Glowstones": 1000
+            }
+        ]
+
+    },
+    {
+        "Realm": "Jungle City 3",
+        "LevelReq": 23,
+        "Enemies": [
+            {
+                "Name": "Chimera",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Nymph",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Goldhorn",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Giant Hawk",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Gargoyle",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "GIANT LEAF DRAGON",
+                "Hp": 800,
+                "Attack": 50,
+                "Glowstones": 1000
+            }
+        ]
+
+    },
+    {
+        "Realm": "Jungle City 4",
+        "LevelReq": 23,
+        "Enemies": [
+            {
+                "Name": "Chimera",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Nymph",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Goldhorn",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Giant Hawk",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Gargoyle",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "GIANT LEAF DRAGON",
+                "Hp": 800,
+                "Attack": 50,
+                "Glowstones": 1000
+            }
+        ]
+
+    },
+    {
+        "Realm": "Jungle City 5",
+        "LevelReq": 23,
+        "Enemies": [
+            {
+                "Name": "Chimera",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Nymph",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Goldhorn",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Giant Hawk",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "Gargoyle",
+                "Hp": 400,
+                "Attack": 60,
+                "Glowstones": 300
+            },
+            {
+                "Name": "GIANT LEAF DRAGON",
+                "Hp": 800,
+                "Attack": 50,
+                "Glowstones": 1000
+            }
+        ]
+
+    },
+    {
+        "Realm": "Atlantis City 1",
+        "LevelReq": 35,
+        "Enemies": [
+            {
+            "Name": "Charybdis",
+            "Hp": 500,
+            "Attack": 80,
+            "Glowstones": 500
+            },
+            {
+                "Name": "Leviathan",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Kraken",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Hydra",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Capricorn",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            }
+        ]
+    },
+    {
+        "Realm": "Atlantis City 2",
+        "LevelReq": 35,
+        "Enemies": [
+            {
+            "Name": "Charybdis",
+            "Hp": 500,
+            "Attack": 80,
+            "Glowstones": 500
+            },
+            {
+                "Name": "Leviathan",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Kraken",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Hydra",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Capricorn",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            }
+        ]
+    },
+    {
+        "Realm": "Atlantis City 3",
+        "LevelReq": 35,
+        "Enemies": [
+            {
+            "Name": "Charybdis",
+            "Hp": 500,
+            "Attack": 80,
+            "Glowstones": 500
+            },
+            {
+                "Name": "Leviathan",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Kraken",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Hydra",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Capricorn",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            }
+        ]
+    },
+    {
+        "Realm": "Atlantis City 4",
+        "LevelReq": 35,
+        "Enemies": [
+            {
+            "Name": "Charybdis",
+            "Hp": 500,
+            "Attack": 80,
+            "Glowstones": 500
+            },
+            {
+                "Name": "Leviathan",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Kraken",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Hydra",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            },
+            {
+                "Name": "Capricorn",
+                "Hp": 500,
+                "Attack": 80,
+                "Glowstones": 500
+            }
+        ]
+    },
+    {
+        "Realm": "Atlantis City 5",
         "LevelReq": 35,
         "Enemies": [
             {
@@ -677,8 +993,8 @@
             {
                 "Name": "WHALEN",
                 "Hp": 1000,
-                "Attack": 100,
-                "Glowstones": 2000
+                "Attack": 200,
+                "Glowstones": 1000
             }
         ]
     }
