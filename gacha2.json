@@ -1,0 +1,138 @@
+ [{
+    "ArmorName": "Phoenix armor",
+    "Rarity": "Ultra",
+    "Protection": 1.275,
+    "Description": "Wow you can fly!"
+},
+{
+    "ArmorName": "Mechanic Gear",
+    "Rarity": "Ultra",
+    "Protection": 1.275,
+    "Description": "Armor just like your dad!"
+},
+{
+    "ArmorName": "Moon Shield",
+    "Rarity": "Ultra",
+    "Protection":1.275,
+    "Description": "Hopefully the sun doesn't reflect its light on you"
+},
+{
+    "ArmorName": "Thunder Gear",
+    "Rarity":"Ultra",
+    "Protection":1.275,
+    "Description": "You're actually Zeus"
+},
+{
+    "ArmorName": "BIGG WATERMELON",
+    "Rarity": "Legendary",
+    "Protection":1.6,
+    "Description": "Eat your fruits"
+},
+{
+    "ArmorName":"Sun Shield",
+    "Rarity": "Legendary",
+    "Protection":1.6,
+    "Description": "Who's that hottie in the room?"
+},
+{
+    "ArmorName": "Onyx Armor",
+    "Rarity": "Mythical",
+    "Protection":1.75,
+    "Description": "Bro thinks they're a pokemon"
+},
+{
+    "ArmorName": "Ocean Armor",
+    "Rarity":"Mythical",
+    "Protection":1.75,
+    "Description": "Part the seas !!"
+},
+{
+    "ArmorName": "Marshmellow Costume",
+    "Rarity": "Mythical",
+    "Protection":1.75,
+    "Description": "I should take a bite out of my armor"
+},
+{
+    "ArmorName": "Valhalla Armor",
+    "Rarity": "???",
+    "Protection": 2.5,
+    "Description": "Omg you're a warrior"
+},
+{
+    "ArmorName": "Pyrium Armor",
+    "Rarity": "???",
+    "Protection": 2.5,
+    "Description": "Honestly the ppl behind the game have no idea what this means"
+}
+] 
+[
+    {
+        "WeaponName": "Draconyx",
+        "Rarity": "Ultra",
+        "AttackPower": 1.45,
+        "Description": "If you wear this you're a furry"
+    },
+    {
+        "WeaponName": "Phoenix Talon",
+        "Rarity": "Ultra",
+        "AttackPower": 1.45,
+        "Description": "Please don't scratch me"
+    },
+    {
+        "WeaponName": "Mechano Mace",
+        "Rarity": "Ultra",
+        "AttackPower": 1.45,
+        "Description": "Go you, defend yourself!"
+    },
+    {
+        "WeaponName": "Moon Wand",
+        "Rarity": "Ultra",
+        "AttackPower":1.45,
+        "Description": "You're a little fairy!"
+    },
+    {
+        "WeaponName": "Thunderbuster",
+        "Rarity":"Ultra",
+        "AttackPower":1.45,
+        "Description": "Go bust that thunder like ghostbusters!"
+    },
+    {
+        "WeaponName": "Watermelon on a stick",
+        "Rarity": "Legendary",
+        "AttackPower": 1.6,
+        "Description": "Like tanghulu but plz don't eat"
+    },
+    {
+        "WeaponName": "Sun Orb Staff",
+        "Rarity":"Legendary",
+        "AttackPower":1.6,
+        "Description":"Bro thinks they're holding the sun"
+    },
+    {
+        "WeaponName": "Onyx Staff",
+        "Rarity":"Mythical",
+        "AttackPower":1.75,
+        "Description": "This does not spawn onyx the pokemon boohoo"
+    },
+    {
+        "WeaponName": "Trident",
+        "Rarity": "Mythical",
+        "AttackPower":1.75,
+        "Description": "You can put Riptide on it and fly!"
+    },
+    {
+        "WeaponName": "S'mores wand",
+        "Rarity":"Mythical",
+        "AttackPower":1.75,
+        "Description": "The marshmellow is burnt"
+    }
+]
+
+
+??? = Valhalla Staff, Pyrium Staff 2.5
+Mythical = Onyx Staff, Trident, S'mores wand 1.75
+Legendary = Watermelon on a stick, Sun Orb staff 1.6
+Ultra = Draconyx, Phoenix Talon, Mechano Mace, Moon wand, Thunderbuster  1.45
+Epic = Dual blade, Frosted Spear, Flame staff, Raider's staff, Plasma Drill
+Rare = Energy staff, Rock guitar, Big Scissors, Poke Fork, Hockey stick
+Common = Umbrella, Long Fungus, Hammer, Pencil, selfie stick
