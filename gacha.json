@@ -14,19 +14,19 @@
                 "ArmorName": "Mushroom Armor",
                 "Rarity": "Common",
                 "Protection": 1.075,
-                "Description": "'Shrooms are fungi that are shaped like umbrellas. Why are you wearing it? +7.5% PROTECTION"
+                "Description": "EDIBLE ARMOR HURAY +7.5% PROTECTION"
             },
             {
                 "ArmorName": "Steel Armor",
                 "Rarity": "Common",
                 "Protection": 1.075,
-                "Description": "Seems to have come from car bodies, and building frames. +7.5% PROTECTION"
+                "Description": "Car bodies and building frames. +7.5% PROTECTION"
             },
             {
                 "ArmorName": "Rubber Eraser",
                 "Rarity": "Common",
                 "Protection": 1.075,
-                "Description": "If wearing mushrooms wasnt weird, wearing an eraser is. Are you good? +7.5% PROTECTION"
+                "Description": "If wearing mushrooms wasnt weird, wearing an eraser is. +7.5% PROTECTION"
             },
             {
                 "ArmorName": "Polaroid Armor",
@@ -38,13 +38,13 @@
                 "ArmorName": "Energy Armor",
                 "Rarity": "Rare",
                 "Protection": 1.15,
-                "Description": "Swirly massless yellow whirlies steadily increasing your adrenaline. It's pretty deflective though. +15.0% PROTECTION"
+                "Description": "Swirly massless yellow whirlies steadily increasing your adrenaline super duper deflective. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Punk Armor",
                 "Rarity": "Rare",
                 "Protection": 1.15,
-                "Description": "The Jojo Siwa Karma rizzless equipment. No lesbian nor straight wants you. +15.0% PROTECTION"
+                "Description": "The Jojo Siwa Karma rizzless equipment no lesbian nor straight wants you. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Boulder",
@@ -56,13 +56,13 @@
                 "ArmorName": "Porcelain Armor",
                 "Rarity": "Rare",
                 "Protection": 1.15,
-                "Description": "Fragile armor, but has pretty privilege. +15.0% PROTECTION"
+                "Description": "Fragile armor but tuff asl. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Hockey Jersey",
                 "Rarity": "Rare",
                 "Protection": 1.15,
-                "Description": "Is this even armor? You feel your muscles swell. +15.0% PROTECTION"
+                "Description": "Not armor but gives muscle growth. +15.0% PROTECTION"
             },
             {
                 "ArmorName": "Duals Gear",
@@ -74,19 +74,19 @@
                 "ArmorName": "Frosted Gear",
                 "Rarity": "Epic",
                 "Protection": 1.3,
-                "Description": "Gear at subzero temperature... you're not affected. Can instantaneously freeze stuff upon contact. +30.0% PROTECTION"
+                "Description": "SHIVREm E TIMBRE +30.0% PROTECTION"
             },
             {
                 "ArmorName": "Fire Armor",
                 "Rarity": "Epic",
                 "Protection": 1.3,
-                "Description": "Flaming protection burning at a thousand degrees. Can melt MOST stuff! +30.0% PROTECTION"
+                "Description": "Flaming protection burning at a thousand degrees. Can melt MOST stuff including bluberiebrieues +30.0% PROTECTION"
             },
             {
                 "ArmorName": "Raider's Armor",
                 "Rarity": "Epic",
                 "Protection": 1.3,
-                "Description": "Inherited from a brethren mauderer from thousands of years ago. You inherited their spirit. +30.0% PROTECTION"
+                "Description": "Inherited from a brethren mauderer from thousands of years ago. You inherited their left shoe. +30.0% PROTECTION"
             },
             {
                 "ArmorName": "Plasma Armor",
@@ -98,7 +98,7 @@
                 "ArmorName": "Draconyx Gear",
                 "Rarity": "Ultra",
                 "Protection": 1.45,
-                "Description": "Inherited from ancient battling mages and powerful wizards. It fits you perfectly. +45.0% PROTECTION"  }
+                "Description": "Inherited from ancient battling mages and powerful wizards. It doesn't fit you. +45.0% PROTECTION"  }
         ]
     },
     {
@@ -110,31 +110,31 @@
                 "WeaponName": "Umbrella",
                 "Rarity": "Common",
                 "AttackPower": 1.075,
-                "Description": "Complimentary double-usage stick to go with your hydrophobic coat. +7.5% ATTACK POWER"
+                "Description": "Complimentary stick to go with your hydrophobic coat. +7.5% ATTACK POWER"
             },
             {
                 "WeaponName": "Long Fungus",
                 "Rarity": "Common",
                 "AttackPower": 1.075,
-                "Description": "Very very very long mushroom. Awesome for whacking. +7.5% ATTACK POWER"
+                "Description": "Very very very long mushroom supercalifragilisticexpialidocious for whacking. +7.5% ATTACK POWER"
             },
             {
                 "WeaponName": "Hammer",
                 "Rarity": "Common",
                 "AttackPower": 1.075,
-                "Description": "A hammer! You're supposed to use it to hammer down nails. +7.5% ATTACK POWER"
+                "Description": "Not made of ham +7.5% ATTACK POWER"
             },
             {
                 "WeaponName": "Pencil",
                 "Rarity": "Common",
                 "AttackPower": 1.075,
-                "Description": "Some may say the pencil is stronger than the sword, or something like that. +7.5% ATTACK POWER"
+                "Description": "Pencil is stronger than the sword or something like that. +7.5% ATTACK POWER"
             },
             {
                 "WeaponName": "Selfie Stick",
                 "Rarity": "Common",
                 "AttackPower": 1.075,
-                "Description": "Fantastic for when your enemy has body dysmorphia. +7.5% ATTACK POWER"
+                "Description": "Useful for when your enemy has body dysmorphia. +7.5% ATTACK POWER"
             },
             {
                 "WeaponName": "Energy Staff",
@@ -146,13 +146,13 @@
                 "WeaponName": "Rock Guitar",
                 "Rarity": "Rare",
                 "AttackPower": 1.45,
-                "Description": "You may choose between earbleed or to smash it on your opponent's head. +45.0% ATTACK POWER"
+                "Description": "You may choose between earbleeding or to smash it on your opponent's head. +45.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Big Scissors",
                 "Rarity": "Rare",
                 "AttackPower": 1.45,
-                "Description": "Why would anyone need big scissors in any occasion? +45.0% ATTACK POWER"
+                "Description": "Why were these invented +45.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Big Pokey Fork",
@@ -170,54 +170,141 @@
                 "WeaponName": "Dual Blade",
                 "Rarity": "Epic",
                 "AttackPower": 1.6,
-                "Description": "Not just one blade, but TWO BIG BLADES! +60.0% ATTACK POWER"
+                "Description": "Not just one blade, but TWO BIG BLADES!!1!11 +60.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Frosted Spear",
                 "Rarity": "Epic",
                 "AttackPower": 1.6,
-                "Description": "A freezing powerful weapon that radiates snowflakes. Somehow you are unaffected. +60.0% ATTACK POWER"
+                "Description": "A tuff weapon that radiates snowflakes. Somehow you are unaffected. +60.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Flame Staff",
                 "Rarity": "Epic",
                 "AttackPower": 1.6,
-                "Description": "Radiates with large powerful scroching flames. Perfect for toasting your Marshmallow Armor. +60.0% ATTACK POWER"
+                "Description": "Radiates flames. Perfect for toasting Marshmallow Armor. +60.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Raider's Staff",
                 "Rarity": "Epic",
                 "AttackPower": 1.6,
-                "Description": "The powerful ancient staff inherited from ancient mauderers... +60.0% ATTACK POWER"
+                "Description": "The powerful ancient staff inherited from mauderers. +60.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Plasma Drill",
                 "Rarity": "Epic",
                 "AttackPower": 1.6,
-                "Description": "Neither liquid, nor solid, nor gas. Just a very spinny drill capable of some serious damage. +60.0% ATTACK POWER"
+                "Description": "Spinny drill capable of some serious damage. +60.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Vallaha Staff",
                 "Rarity": "???",
                 "AttackPower": 2.5,
-                "Description": "The big strong staff for big strong warriors. +250.0% ATTACK POWER"
+                "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"
             },
             {
                 "WeaponName": "Pyrium Staff",
                 "Rarity": "???",
                 "AttackPower": 2.5,
-                "Description": "What does Pyrium even mean the coders just thought the word was cool. +250.0% ATTACK POWER"
+                "Description": "What does Pyrium even mean the word was just cool. +250.0% ATTACK POWER"
             }
         ] 
+    },
+    {
+        "Pet": "Pets",
+        "Cost": 500,
+        "Pets":
+        [
+            {
+                "PetName": "Panda",
+                "Rarity": "Ultra",
+                "Multiplier": 1.45,
+                "Description": "Endangered oreo bear endemic to China. You weren't supposed to adopt it. +45.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Cerberus",
+                "Rarity": "Legendary",
+                "Multiplier": 1.6,
+                "Description": "A hound with three heads :D +60.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Chimera",
+                "Rarity": "Legendary",
+                "Multiplier": 1.6,
+                "Description": "Lion with a goat's head in the middle of its back and with a tail that ends in a snake's head. +60.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Nessie",
+                "Rarity": "Legendary",
+                "Multiplier": 1.6,
+                "Description": "Somehow you have found the Scottish Loch Ness Monster. +60.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Walrus",
+                "Rarity": "Legendary",
+                "Multiplier": 1.6,
+                "Description": "Walrus. +60.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Kitsune",
+                "Rarity": "Legendary",
+                "Multiplier": 1.6,
+                "Description": "Genetically mutated freak with 9 tails. +60.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Griffin",
+                "Rarity": "Legendary",
+                "Multiplier": 1.6,
+                "Description": "A flying chimera with eagle wings and a lion body. +60.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Chimera",
+                "Rarity": "Legendary",
+                "Multiplier": 1.6,
+                "Description": "Lion with a goat's head in the middle of its back and with a tail that ends in a snake's head. +60.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Alicorn",
+                "Rarity": "Mythical",
+                "Multiplier": 1.75,
+                "Description": "MY LITLE PONEY +75.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Phoenix",
+                "Rarity": "Mythical",
+                "Multiplier": 1.75,
+                "Description": "Immortal fire bird of reincarnation. How did you tame it? +75.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Dragon",
+                "Rarity": "Mythical",
+                "Multiplier": 1.75,
+                "Description": "Big big chunky snake with thick legs and big wings. +75.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Unicorn",
+                "Rarity": "Mythical",
+                "Multiplier": 1.75,
+                "Description": "Haha corn +75.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Light Dragon",
+                "Rarity": "???",
+                "Multiplier": 2.5,
+                "Description": "Light as in sunlight not as in <150 american pounds +250.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Shadow Dragon",
+                "Rarity": "???",
+                "Multiplier": 2.5,
+                "Description": "ROBOXL +250.0% GLOWSTONES"
+            },
+            {
+                "PetName": "Rice Bowl",
+                "Rarity": "Mythical",
+                "Multiplier": 2.5,
+                "Description": "PEAK level Chinese pet use code 'IEATRiCE' to redeem a free $0.25 irl. +250.0% GLOWSTONES"
+            }
+        ]
     }
 ]
-
-
-### Weapons =
-### ??? = Valhalla Staff, Pyrium Staff
-### Mythical = Onyx Staff, Trident, S'mores wand
-### Legendary = Watermelon on a stick, Sun Orb staff
-### Ultra = Draconyx, Phoenix Talon, Mechano Mace, Moon wand, Thunderbuster
-### Epic = Dual blade, Frosted Spear, Flame staff, Raider's staff, Plasma Drill
-### Rare = Energy staff, Rock guitar, Big Scissors, Poke Fork, Hockey stick
-### Common = Umbrella, Long Fungus, Hammer, Pencil, selfie stick
