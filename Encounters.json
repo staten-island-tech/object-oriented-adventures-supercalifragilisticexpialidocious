@@ -992,8 +992,8 @@
             },
             {
                 "Name": "WHALEN",
-                "Hp": 1000,
-                "Attack": 200,
+                "Hp": 2000,
+                "Attack": 100,
                 "Glowstones": 1000
             }
         ]
