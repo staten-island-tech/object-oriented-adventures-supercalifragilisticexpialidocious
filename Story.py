@@ -91,11 +91,11 @@ print(f"Y/N: NO WAIT-")
 sleep(.5)
 print("✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨")
 sleep(.5)
-print("You are now in Mainlands")
+print("*You are now in Mainlands, use W,A,S,D to move*")
 sleep(1)
 print(f"Y/N: Ok, what do I do now...")
 sleep(.5)
-print("[1] > Go to shop\n[2] > Go to Tundra 1\n[3] > ")
+
 
 
 
