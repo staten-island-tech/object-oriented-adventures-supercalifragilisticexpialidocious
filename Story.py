@@ -74,23 +74,30 @@ elif begin == "2":
     print("???: I am a nymph and I'm helping you on your journey")
     sleep(1)
     print(f"Y/N: Interesting...")
+sleep(1)
 print(f"Y/N: What do we do now?")
 sleep(1)
 print("Nymph: You have to go through 25 worlds and battle enemies until you reach boss.")
-sleep(1)
+sleep(1.5)
 print(f"Y/N: And what does the boss look like?")
-sleep(1)
+sleep(1.5)
 print("Nymph: You'll know it when you see it...")
-sleep(1)
+sleep(1.5)
 print(f"Y/N: Doesn't help that much")
 sleep(1)
 print("Nymph: Well I gotta go now. I might visit, but for now, goodbye!")
-sleep(1)
+sleep(1.5)
 print(f"Y/N: NO WAIT-")
-sleep(1)
+sleep(.5)
 print("✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨")
+sleep(.5)
+print("*You are now in Mainlands, use W,A,S,D to move*")
+sleep(1)
+print(f"Y/N: Ok, what do I do now...")
+sleep(.5)
 
-#code game here! :
+
+
 
 """ 
 with open("inventory.json", "w") as f:
