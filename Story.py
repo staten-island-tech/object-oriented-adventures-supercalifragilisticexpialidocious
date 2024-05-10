@@ -19,14 +19,15 @@ umbrella = 20
 
 print(f"You have encountered a {Enemy}!")
 print(f"You have {Energy} Energy")
-choice = int(input("[1] > Fight\n[2] > Run away\n> "))
-if choice == 1:
+choice = input("[1] > Fight\n[2] > Run away\n> ")
+if choice == "1":
     print(f"{Enemy} dealt 10 damage")
     playerhealth = playerhealth - 10
+    fight = input("[1] > Use your weapon, -5 Energy\n[2] > Punch, -2 energy\n[3] > Kick, -2 energy\n> ")
     if fight == 1:
         print(f"You dealt {umbrella} damage")
-        EnemyHealth = EnemyHealth - umbrella
-        Energy = Energy - 5
+        EnemyHealth -= umbrella
+        Energy -= 5
     elif fight == 2:
         print("You dealt 5 damage")
         EnemyHealth = EnemyHealth - 5
@@ -34,14 +35,10 @@ if choice == 1:
     elif fight == 3:
         print("You dealt 5 damage")
         EnemyHealth - 5
-        Energy = Energy - 5
-
+        Energy = Energy - 2
+    
 print(playerhealth)
-print(EnemyHealt
-elif choice == 2:
-    print("Scaredy cat")
-fight = input("[1] > Use your weapon, -5 Energy\n[2] > Punch, -2 energy\n[3] > Kick, -2 energy\n> ")
-h)
+print(EnemyHealth)
 print(Energy)
 
 
