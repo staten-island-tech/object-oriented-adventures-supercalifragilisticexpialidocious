@@ -1,4 +1,4 @@
-import time
+import time, random
 
 
 
@@ -84,14 +84,55 @@ class Prologue:
         sleep(x)
         print("✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨✨")
         sleep(x)
+
+class Worlds:
     def mainground():
         x = float(input("Input seconds delay following script:\n>"))
         def sleep(x):
             time.sleep(x)
-        print("*You are now in Mainlands, use W,A,S,D to move*")
+        print("Nymph: You are now in Mainlands, use W,A,S,D to move")
         sleep(x)
         print(f"Y/N: Ok, what do I do now...")
         sleep(x)
     def tundra():
+        x = float(input("Input seconds delay following script:\n>"))
+        def sleep(x):
+            time.sleep(x)
+        print("*You are now in Tundras, use W,A,S,D to move*")
+        sleep(x)
+        print(f"Y/N: Ok, what do I do now...")
+        sleep(x)
+    def forest():
+        x = float(input("Input seconds delay following script:\n>"))
+        def sleep(x):
+            time.sleep(x)
+        print("*You are now in the Forest, use W,A,S,D to move*")
+        sleep(x)
+        print(f"Y/N: Ok, what do I do now...")
+        sleep(x)
+    def springfield():
+        x = float(input("Input seconds delay following script:\n>"))
+        def sleep(x):
+            time.sleep(x)
+        print("*You are now in Springfield, use W,A,S,D to move*")
+        sleep(x)
+        print(f"Y/N: Ok, what do I do now...")
+        sleep(x)
+    def jungle():
+        x = float(input("Input seconds delay following script:\n>"))
+        def sleep(x):
+            time.sleep(x)
+        print("*You are now in the Jungles, use W,A,S,D to move*")
+        sleep(x)
+        print(f"Y/N: Ok, what do I do now...")
+        sleep(x)
+    def atlantis():
+        x = float(input("Input seconds delay following script:\n>"))
+        def sleep(x):
+            time.sleep(x)
+        print("*You are now in Atlantis, use W,A,S,D to move*")
+        sleep(x)
+        print(f"Y/N: Ok, what do I do now...")
+        sleep(x)
 
-Prologue.mainground()
+
