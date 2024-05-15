@@ -10,18 +10,6 @@ class Usefulbots:
         print("Hello my name is Wen Qian!")
         print("Wen Qian: What do you need help with?")
         question = input("[1] > Bring me to weapon gacha\n[2] > Bring me to gear gacha\n[3] > Bring me to pet gacha\n[4] > Buy gacha tickets\n[5] > See rarities\n[6] >  Enter promocode")
-    def _load_users(self):
-        """
-        Loads user data from a JSON file.
-        """
-        file_path = 'promocode.json'
-        if os.path.exists(file_path):
-            try:
-                with open(file_path, 'r') as file:
-                    return json.load(file)
-            except json.JSONDecodeError:
-                return {}
-        return {}
     def Sarah():
         print("Hello, I am Sarah!")
         print("Sarah: What do you need help with?")
