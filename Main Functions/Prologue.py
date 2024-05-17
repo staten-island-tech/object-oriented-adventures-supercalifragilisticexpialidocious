@@ -1,10 +1,9 @@
-import time, random
+import time
 
 
 
-
-class Prologue:
-    def prologue():
+class Dialogue:
+    def start():
         x = float(input("Input seconds delay following script:\n>"))
         if x > 10:
             print("dum bass pick a faster rate")
@@ -90,7 +89,7 @@ class Worlds:
         x = float(input("Input seconds delay following script:\n>"))
         def sleep(x):
             time.sleep(x)
-        print("Nymph: You are now in Mainlands, use W,A,S,D to move")
+        print("Talking Mushroom on the floor: You are now in Mainlands, use W,A,S,D to move")
         sleep(x)
         print(f"Y/N: Ok, what do I do now...")
         sleep(x)

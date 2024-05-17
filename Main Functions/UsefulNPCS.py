@@ -1,9 +1,8 @@
 import random, json, os
 promocode = open("./promocode.json", encoding="utf8")
 data = json.load(promocode)
-glow = open("./glowstones.json", encoding="utf8")
-glowstone = json.load(glow)
-glowstones = glowstone["glowstones"]
+with open("glowstones.json", "r") as f:
+    glow = json.load(f)
 
 class Usefulbots:
     def WenQian():
@@ -27,9 +26,18 @@ class Usefulbots:
             for code in data:
                 if code["promocode"] == promo:
                     print("You have just gained 100 exp and a badge!")
-                    glowstones.append(100)
+                    with open("glowstones.json", "r") as f:
+                        glow = json.load(f)
+                    glowstone = glow["glowstones"]
+                    print
+                    """ with open("glowstones.json", "w") as f:
+                        json_string = json.dumps(glow, indent= 4)
+                        f.write(json_string) """
                 elif promo not in code["promocode"]:
                     print("That is not a promocode")
+
+
+
 
 Usefulbots.Sarah()
 
