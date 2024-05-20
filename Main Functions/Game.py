@@ -1,4 +1,5 @@
-import time, sys, os, hashlib, json
+import time, sys, os, hashlib, json, Prologue
+from Prologue import Dialogue, Worlds
 
 def anim(text, delay=0.0375):
     for char in text:
@@ -194,7 +195,7 @@ if __name__ == "__main__":
     
     user_manager = UserManager()
     
-    while True:
+    """ while True:
         print("███╗     ██╗    ███╗       ██╗      ██████╗  ██████╗     ██╗███╗   ██╗    ██╗    ██╗    ██╗    ██╗   ██╗██████╗      █████╗  ██████╗ ██████╗")
         print("██╔╝    ███║    ╚██║       ██║     ██╔═══██╗██╔════╝     ██║████╗  ██║    ██║    ██║   ██╔╝    ██║   ██║██╔══██╗    ██╔══██╗██╔════╝██╔════╝")
         print("██║     ╚██║     ██║       ██║     ██║   ██║██║  ███╗    ██║██╔██╗ ██║    ██║ █╗ ██║  ██╔╝     ██║   ██║██████╔╝    ███████║██║     ██║     ")
@@ -218,4 +219,7 @@ if __name__ == "__main__":
             print("E X I T I N G")
             break
         else:
-            print("P L E A S E   I N P U T   E I T H E R   [1]   O R   [2]!")
+            print("P L E A S E   I N P U T   E I T H E R   [1]   O R   [2]!") """
+
+Dialogue.start()
+Worlds.mainground()
