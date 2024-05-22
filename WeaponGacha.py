@@ -2,21 +2,18 @@ import random, time, json
 poke = open("./weapon.json", encoding="utf8")
 weapon = json.load(poke)
 
-with open("Inventory.json", "r") as f:
-    data = json.load(f)
 
 class Weapon:
     def find(name):
         for type in weapon:
             if name == type['WeaponName']:
                 print(type)
-    def Inv(name):
-        for type in weapon:
-            if name == type['WeaponName']:
-                data.append(type)
-            
-        with open("Inventory.json", "w") as f:
-            json.dumps(data, indent= 4)
+                with open('Inventory.json' , 'r+') as f:
+                    d = json.load(f)
+                    d.append(type)
+                    f.seek(0)
+                    json.dump(d, f, indent = 4)
+    
             
     def Gacha():
         x = float(input("Input seconds delay following script:\n>"))
@@ -32,11 +29,9 @@ class Weapon:
                 if d == 1:
                     print("You just obtained a Valhalla Staff!")
                     Weapon.find("Valhalla Staff")
-                    Weapon.Inv("Valhalla Staff")
                 elif d == 2:
                     print("You just obtained a Pyrium Staff!")
                     Weapon.find("Pyrium Staff")
-                    Weapon.Inv("Pyrium Staff")
                     
             elif x > 5 and x < 196:
                 c = random.randint(1,3)
