@@ -1,4 +1,4 @@
-import random, os, FIGHT
+import random, os
 
 # def clear():
 #     os.system("cls")
@@ -100,7 +100,7 @@ while True:
             print("                 +%%=                     .-#@*.                           ")
             print("              :##-                            =%=                          ")
             print("            .#%:                               -@-                         ")
-            print("           -%+                                  -%-                    ")    
+            print("           -%+                                  -%-                        ")    
             print("          =%=                                    *%                        ")
             print("         =%-                                      #+                       ")
             print("        -%=                                       *%                       ")
@@ -115,7 +115,7 @@ while True:
             print("       %=                                        *%                        ")
             print("       %=                                       :%:                        ")
             print("       %*                                       #*                         ")
-            print("       :%=                                     =@.           You dumbass you stepped in a pile of shit              ")
+            print("       :%=                                     =@.           You dumbass you stepped in a pile of shit")
             print("        =%=                                    #*                          ")
             print("         -%*                   :::::::-+***-  :%:                          ")
             print("           *#         +%#*#%@@@*++++#@@%:    =%-                           ")

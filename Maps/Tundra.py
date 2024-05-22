@@ -29,6 +29,8 @@ for row in map:
             row[random.randint(40, 78)] = "🔷"
 
 
+
+
 def print_map(): 
     for row in map: 
         print(''.join(row))
@@ -39,16 +41,16 @@ while True:
     print_map()
 
     whereToGo = input("Skibidmovement?: ").upper()
-    if whereToGo == "W" and playerCoords[0] - 1 >= 0 and map[playerCoords[0] - 1][playerCoords[1]] not in ["🌲"]:
+    if whereToGo == "W" and playerCoords[0] - 1 >= 0 and map[playerCoords[0] - 1][playerCoords[1]] not in ["🌲", " .", ". ", "."]:
         map[playerCoords[0]][playerCoords[1]] = "  " 
         playerCoords[0] -= 1
-    elif whereToGo == "A" and map[playerCoords[0]][playerCoords[1] - 1] not in ["|", "🌲"]:
+    elif whereToGo == "A" and map[playerCoords[0]][playerCoords[1] - 1] not in ["|", "🌲", " .", ". ", "."]:
         map[playerCoords[0]][playerCoords[1]] = "  "
         playerCoords[1] -= 1
-    elif whereToGo == "S" and playerCoords[0] + 1 < mapSize[0] and map[playerCoords[0] + 1][playerCoords[1]] not in ["🌲"]:
+    elif whereToGo == "S" and playerCoords[0] + 1 < mapSize[0] and map[playerCoords[0] + 1][playerCoords[1]] not in ["🌲", " .", ". ", "."]:
         map[playerCoords[0]][playerCoords[1]] = "  "
         playerCoords[0] += 1
-    elif whereToGo == "D" and playerCoords[1] + 1 < mapSize[1] and map[playerCoords[0]][playerCoords[1] + 1] not in ["|", "🌲"]:
+    elif whereToGo == "D" and playerCoords[1] + 1 < mapSize[1] and map[playerCoords[0]][playerCoords[1] + 1] not in ["|", "🌲", " .", ". ", "."]:
         map[playerCoords[0]][playerCoords[1]] = "  "
         playerCoords[1] += 1
     if map[playerCoords[0]][playerCoords[1]] == "🔷":
