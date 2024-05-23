@@ -6,27 +6,27 @@ keybinds = ["W", "A", "S", "D"]
 def clear(): os.system("cls")
 map = [['|' if i in [0] else '  ' for i in range(80)] for _ in range(35)]
 for row in map: 
+        if map.index(row) == 3:
+            for i in range(15,26):
+                row[i] = ". "
+            for i in range(37,50):
+                row[i] = ". "
         if map.index(row) == 0:
-            for i in range(15,50):
-                row[i] = ". "
-        if map.index(row) == 4:
-            for i in range(15,50):
-                row[i] = ". "
-        if map.index(row) == 1:
             row[15] = "."
             row[49] = " ."
+        if map.index(row) == 1:
+            row[15] = "."
+            row[24] =  "A R S E N A L   A N D   G E A R"
+            row[35] = " ."
         if map.index(row) == 2:
             row[15] = "."
             row[49] = " ."
-        if map.index(row) == 3:
-            row[15] = "."
-            row[49] = " ."
         if random.randint(1,2) == 1:
-            row[random.randint(1, 15)] = '🌲'
+            row[random.randint(1, 14)] = '🌲'
             row[random.randint(50, 78)] = '🌲'        
         if random.randint(1,10) == 1:
-            row[random.randint(1, 20)] = "🔷"
-            row[random.randint(40, 78)] = "🔷"
+            row[random.randint(1, 14)] = "🔷"
+            row[random.randint(50, 78)] = "🔷"
 
 
 
