@@ -10,9 +10,17 @@ class Weapon:
                 print(type)
                 with open('Inventory.json' , 'r+') as f:
                     d = json.load(f)
-                    d.append(type)
-                    f.seek(0)
-                    json.dump(d, f, indent = 4)
+                    for x in d:
+                        if name not in x['WeaponName']:
+                            d.append(type)
+                            f.seek(0)
+                            json.dump(d, f, indent = 4)
+                        else:
+                            print("You already have this item. Here's 350 glowstones instead!")
+                            """ with open('glowstones.json', 'r+') as f:
+                                d = json.load(f)
+                                d[1]["glowstones"] += 350
+                                json.dump(d, f) """
     
             
     def Gacha():
@@ -23,7 +31,7 @@ class Weapon:
         sleep(x)
         p = input("What would you like to do?\n[1] > Use your gacha ticket\n[2] > Exit\n>  ")
         if p == "1":
-            x = random.randint(1,5)
+            x = random.randint(1,3750)
             if x > 0 and x < 6:
                 d = random.randint(1,2)
                 if d == 1:
@@ -47,11 +55,11 @@ class Weapon:
             elif x > 195 and x <551:
                 f = random.randint(1,2)
                 if f == 1:
-                    print("You just obtained a BIGG WATERMELON!")
-                    Weapon.find("BIGG WATERMELON")
+                    print("You just obtained a Watermelon on a stick!")
+                    Weapon.find("Watermelon on a stick")
                 elif f == 2:
-                    print("You just obtained a Sun Shield!")
-                    Weapon.find("Sun Shield")
+                    print("You just obtained a Sun Orb Staff!")
+                    Weapon.find("Sun Orb Staff")
             elif x > 550 and x < 1001:
                 d = random.randint(1,5)
                 if d == 1:
@@ -98,8 +106,8 @@ class Weapon:
                     print("You just obtained a Big Scissors!")
                     Weapon.find("Big Scissors")
                 elif t ==4:
-                    print("You just obtained a Poke Fork!")
-                    Weapon.find("Poke Fork")
+                    print("You just obtained a Big Pokey Fork!")
+                    Weapon.find("Big Pokey Fork")
                 elif t ==5:
                     print("You just obtained a Hockey Stick!")
                     Weapon.find("Hockey Stick")
