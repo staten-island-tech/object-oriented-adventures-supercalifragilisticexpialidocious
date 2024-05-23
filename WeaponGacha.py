@@ -2,26 +2,26 @@ import random, time, json
 poke = open("./weapon.json", encoding="utf8")
 weapon = json.load(poke)
 
+po = open("./Inventory.json", encoding="utf8")
+inv = json.load(po)
 
 class Weapon:
     def find(name):
         for type in weapon:
             if name == type['WeaponName']:
                 print(type)
-                with open('Inventory.json' , 'r+') as f:
+    def same(name):
+        for x in inv:
+            if name not in x:
+                inv.append(type)
+                json.dump(x, indent = 4)
+            else:
+                print("You already have this item. Here's 350 glowstones instead!")
+                """ with open('glowstones.json', 'r+') as f:
                     d = json.load(f)
-                    for x in d:
-                        if name not in x['WeaponName']:
-                            d.append(type)
-                            f.seek(0)
-                            json.dump(d, f, indent = 4)
-                        else:
-                            print("You already have this item. Here's 350 glowstones instead!")
-                            """ with open('glowstones.json', 'r+') as f:
-                                d = json.load(f)
-                                d[1]["glowstones"] += 350
-                                json.dump(d, f) """
-    
+                    d[1]["glowstones"] += 350
+                    json.dump(d, f) """
+
             
     def Gacha():
         x = float(input("Input seconds delay following script:\n>"))
@@ -31,15 +31,17 @@ class Weapon:
         sleep(x)
         p = input("What would you like to do?\n[1] > Use your gacha ticket\n[2] > Exit\n>  ")
         if p == "1":
-            x = random.randint(1,3750)
+            x = random.randint(1,5)
             if x > 0 and x < 6:
                 d = random.randint(1,2)
                 if d == 1:
                     print("You just obtained a Valhalla Staff!")
                     Weapon.find("Valhalla Staff")
+                    Weapon.same("Valhalla Staff")
                 elif d == 2:
                     print("You just obtained a Pyrium Staff!")
                     Weapon.find("Pyrium Staff")
+                    Weapon.same("Pyrium Staff")
                     
             elif x > 5 and x < 196:
                 c = random.randint(1,3)
@@ -132,4 +134,4 @@ class Weapon:
             pass
 
 
-Weapon.Gacha()
+Weapon.same("Valhalla Staff")
