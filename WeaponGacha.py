@@ -12,15 +12,22 @@ class Weapon:
                 print(type)
     def same(name):
         for x in inv:
-            if name not in x:
-                inv.append(type)
-                json.dump(x, indent = 4)
-            else:
+            if name == x:
                 print("You already have this item. Here's 350 glowstones instead!")
-                """ with open('glowstones.json', 'r+') as f:
-                    d = json.load(f)
-                    d[1]["glowstones"] += 350
-                    json.dump(d, f) """
+                with open("Users.json", "r") as jsonFile:
+                    data = json.load(jsonFile)
+                    data["glowstones"] += 350
+                with open("Users.json", "w") as jsonFile:
+                    json.dump(data, jsonFile)
+            elif name not in x:
+                print("hai")
+                for type in weapon:
+                    if name == type['WeaponName']:
+                        with open('Inventory.json' , 'r') as f:
+                            d = json.load(f)
+                        with open('Inventory.json', 'w') as x:
+                            d.append(type)
+                            json.dump(d, x, indent = 4)
 
             
     def Gacha():
@@ -31,7 +38,8 @@ class Weapon:
         sleep(x)
         p = input("What would you like to do?\n[1] > Use your gacha ticket\n[2] > Exit\n>  ")
         if p == "1":
-            x = random.randint(1,5)
+            #x = random.randint(1,5)
+            x = 3
             if x > 0 and x < 6:
                 d = random.randint(1,2)
                 if d == 1:
@@ -134,4 +142,4 @@ class Weapon:
             pass
 
 
-Weapon.same("Valhalla Staff")
+Weapon.Gacha()
