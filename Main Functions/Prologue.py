@@ -135,3 +135,4 @@ class Worlds:
         sleep(x)
 
 
+Dialogue.start()
