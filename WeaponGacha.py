@@ -1,5 +1,5 @@
 import random, time, json
-poke = open("./weapon.json", encoding="utf8")
+poke = open("./Weapons.json", encoding="utf8")
 weapon = json.load(poke)
 
 po = open("./Inventory.json", encoding="utf8")
@@ -12,14 +12,15 @@ class Weapon:
                 print(type)
     def same(name):
         for x in inv:
-            if name == x:
+            if name == x['WeaponName']:
                 print("You already have this item. Here's 350 glowstones instead!")
                 with open("Users.json", "r") as jsonFile:
                     data = json.load(jsonFile)
                     data["glowstones"] += 350
                 with open("Users.json", "w") as jsonFile:
                     json.dump(data, jsonFile)
-            elif name not in x:
+        for x in inv:
+            if name not in x:
                 print("hai")
                 for type in weapon:
                     if name == type['WeaponName']:

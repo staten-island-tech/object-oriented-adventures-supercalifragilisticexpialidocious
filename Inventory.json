@@ -1,8 +1,21 @@
 [
+    {},
     {
-        "WeaponName": "Pyrium Staff",
+        "WeaponName": "Valhalla Staff",
         "Rarity": "???",
         "AttackPower": 2.5,
-        "Description": "What does Pyrium even mean the word was just cool. +250.0% ATTACK POWER"
+        "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"
+    },
+    {
+        "WeaponName": "Valhalla Staff",
+        "Rarity": "???",
+        "AttackPower": 2.5,
+        "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"
+    },
+    {
+        "WeaponName": "Valhalla Staff",
+        "Rarity": "???",
+        "AttackPower": 2.5,
+        "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"
     }
 ]
