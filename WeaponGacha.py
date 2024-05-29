@@ -16,12 +16,8 @@ class Weapon:
                 print("You already have this item. Here's 350 glowstones instead!")
                 with open("Inventory.json", "r") as f:
                     data = json.load(f)
-                field_key = 'Glowstones'
-                if field_key in data:
-                    data['Glowstones'] += 350
-                with open("data.json", "w") as f:
-                    json_string = json.dumps(data, indent= 4)
-                    f.write(json_string)
+                d = data['Glowstones']
+                print(d)
             if name not in x:
                 same = False
             else:

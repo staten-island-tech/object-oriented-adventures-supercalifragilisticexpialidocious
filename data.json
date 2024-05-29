@@ -13,5 +13,17 @@
     },
     {
         "Glowstones": 0
+    },
+    {
+        "WeaponName": "Valhalla Staff",
+        "Rarity": "???",
+        "AttackPower": 2.5,
+        "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"
+    },
+    {
+        "WeaponName": "Valhalla Staff",
+        "Rarity": "???",
+        "AttackPower": 2.5,
+        "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"
     }
 ]
