@@ -14,21 +14,25 @@ class Weapon:
         for x in inv:
             if name == x['WeaponName']:
                 print("You already have this item. Here's 350 glowstones instead!")
-                with open("Users.json", "r") as jsonFile:
-                    data = json.load(jsonFile)
-                    data["glowstones"] += 350
-                with open("Users.json", "w") as jsonFile:
-                    json.dump(data, jsonFile)
-        for x in inv:
+                with open("Inventory.json", "r") as f:
+                    data = json.load(f)
+                field_key = 'Glowstones'
+                if field_key in data:
+                    data['Glowstones'] += 350
+                with open("data.json", "w") as f:
+                    json_string = json.dumps(data, indent= 4)
+                    f.write(json_string)
             if name not in x:
-                print("hai")
-                for type in weapon:
-                    if name == type['WeaponName']:
-                        with open('Inventory.json' , 'r') as f:
-                            d = json.load(f)
-                        with open('Inventory.json', 'w') as x:
-                            d.append(type)
-                            json.dump(d, x, indent = 4)
+                same = False
+            else:
+                same = True
+        for type in weapon:
+            if same == False and name == type['WeaponName']:
+                with open('Inventory.json' , 'r') as f:
+                    d = json.load(f)
+                with open('Inventory.json', 'w') as x:
+                    d.append(type)
+                    json.dump(d, x, indent = 4)
 
             
     def Gacha():
