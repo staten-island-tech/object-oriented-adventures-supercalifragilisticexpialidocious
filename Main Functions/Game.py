@@ -1,5 +1,6 @@
-import time, sys, os, hashlib, json, Prologue
+import time, sys, os, hashlib, json, Prologue, map
 from Prologue import Dialogue, Worlds
+from map import Maps
 
 def anim(text, delay=0.0375):
     for char in text:
@@ -223,3 +224,4 @@ if __name__ == "__main__":
 
 Dialogue.start()
 Worlds.mainground()
+Maps.map("🍔","🍕", "🍟")

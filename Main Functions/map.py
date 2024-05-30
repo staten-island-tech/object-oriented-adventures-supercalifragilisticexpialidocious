@@ -41,4 +41,3 @@ class Maps():
                 os.system("cls")
                 break
 
-Maps.map("🍔","🍕", "🍟")
