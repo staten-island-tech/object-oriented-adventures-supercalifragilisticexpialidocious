@@ -3,6 +3,12 @@ x = open("./weapon.json", encoding="utf8")
 y = json.load(x)
 
 class Encounter:
+    def enemy(name):
+        poke = open("./tundra.json", encoding="utf8")
+        weapon = json.load(poke)
+        for type in weapon:
+            if name == type['WeaponName']:
+                print(type)
     def find(name):
         for type in y:
             if name == type['Name']:
