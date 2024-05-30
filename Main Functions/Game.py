@@ -224,4 +224,6 @@ if __name__ == "__main__":
 
 Dialogue.start()
 Worlds.mainground()
-Maps.map("🍔","🍕", "🍟")
+#need to put maingrounds here
+Worlds.tundra()
+Maps.map("🌲","🌊", "👹") # tundra

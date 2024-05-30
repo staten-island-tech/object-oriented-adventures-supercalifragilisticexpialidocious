@@ -4,7 +4,7 @@ import time
 
 class Dialogue:
     def start():
-        x = float(input("Input seconds delay following script:\n>"))
+        x = float(input("Input seconds delay following script (Recommended: 1.5):\n>"))
         if x > 10:
             print("dum bass pick a faster rate")
         def sleep(x):
