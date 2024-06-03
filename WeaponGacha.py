@@ -10,22 +10,20 @@ class Weapon:
         for type in weapon:
             if name == type['WeaponName']:
                 print(type)
-    def same(name):
         for x in inv:
-            if name == x['WeaponName']:
+            if name == x:
                 print("You already have this item. Here's 350 glowstones instead!")
-                
-            if name not in x:
+        
+        for f in inv:
+            if name != f:
                 same = False
-            else:
-                same = True
-        for type in weapon:
-            if same == False and name == type['WeaponName']:
-                with open('Inventory.json' , 'r') as f:
-                    d = json.load(f)
-                with open('Inventory.json', 'w') as x:
-                    d.append(type)
-                    json.dump(d, x, indent = 4)
+
+        if same == False:
+            with open('Inventory.json' , 'r') as f:
+                d = json.load(f)
+            with open('Inventory.json', 'w') as x:
+                d.append(type)
+                json.dump(d, x, indent = 4)
 
             
     def Gacha():
@@ -43,11 +41,10 @@ class Weapon:
                 if d == 1:
                     print("You just obtained a Valhalla Staff!")
                     Weapon.find("Valhalla Staff")
-                    Weapon.same("Valhalla Staff")
+
                 elif d == 2:
                     print("You just obtained a Pyrium Staff!")
                     Weapon.find("Pyrium Staff")
-                    Weapon.same("Pyrium Staff")
                     
             elif x > 5 and x < 196:
                 c = random.randint(1,3)
