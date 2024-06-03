@@ -1,6 +1,7 @@
-import time, sys, os, hashlib, json, Prologue, map
+import time, sys, os, hashlib, json, Prologue, map, Maingrounds
 from Prologue import Dialogue, Worlds
 from map import Maps
+from Maingrounds import Mainground
 
 def anim(text, delay=0.0375):
     for char in text:
@@ -125,6 +126,6 @@ if __name__ == "__main__":
 
 Dialogue.start()
 Worlds.mainground()
-#need to put maingrounds here
+Mainground.maingrounds()
 Worlds.tundra()
 Maps.map("🌲","🌊", "👹") # tundra
