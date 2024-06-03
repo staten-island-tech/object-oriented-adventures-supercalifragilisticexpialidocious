@@ -6,15 +6,17 @@ class WeaponGacha:
         with open("Weapons.json", encoding="utf8") as file:
             self.weapons_data = json.load(file)
 
-        self.drop_rates = {
-            "???": 0.05,
-            "Mythical": 1.95,
-            "Legendary": 5.5,
-            "Ultra": 10,
-            "Epic": 17.5,
-            "Rare": 27.5,
-            "Common": 37.5
-        }
+        self.drop_rates = [
+            {"???": 0.05},
+            {"Mythical": 1.95},
+            {"Legendary": 5.5},
+            {"Ultra": 10},
+            {"Epic": 17.5},
+            {"Rare": 27.5},
+            {"Common": 37.5}
+        ]
+
+        self.weights = [0.05, 1.95, 5.5, 10, 17.5, 27.5, 37.5]
 
     def add_item_to_inventory(self, item):
         with open("Inventory.json", "r") as file:
@@ -41,7 +43,8 @@ class WeaponGacha:
             if selected_rarity:
                 weapons_in_rarity = self.drop_rates[selected_rarity]
                 if weapons_in_rarity:
-                    selected_weapon = random.choice(weapons_in_rarity)
+                    selected_weapon = random.choices([self.drop_rates], weights = self.weights)
+                    print(selected_weapon)
                     print(f"You just obtained a {selected_weapon['WeaponName']}!")
                     self.add_item_to_inventory(selected_weapon)
                 else:
