@@ -14,10 +14,7 @@ class Weapon:
         for x in inv:
             if name == x['WeaponName']:
                 print("You already have this item. Here's 350 glowstones instead!")
-                with open("Inventory.json", "r") as f:
-                    data = json.load(f)
-                d = data['Glowstones']
-                print(d)
+                
             if name not in x:
                 same = False
             else:

@@ -8,79 +8,6 @@ def anim(text, delay=0.0375):
         time.sleep(delay)
     print()
 
-class UserManager:
-    """
-    Manages user accounts, including registration and login.
-    """
-
-    def __init__(self):
-        self.users = self._load_users()
-
-    def _load_users(self):
-        """
-        Loads user data from a JSON file.
-        """
-        file_path = 'users.json'
-        if os.path.exists(file_path):
-            try:
-                with open(file_path, 'r') as file:
-                    return json.load(file)
-            except json.JSONDecodeError:
-                return {}
-        return {}
-
-    def _save_users(self):
-        """
-        Saves user data to a JSON file.
-        """
-        file_path = 'Users.json'
-        with open(file_path, 'w') as file:
-            json.dump(self.users, file, indent=4)
-
-    def _hash_password(self, password):
-        """
-        Hashes a password using SHA-256.
-        """
-        return hashlib.sha256(password.encode()).hexdigest()
-
-    def signup(self):
-        """
-        Registers a new user.
-        """
-        username = anim(input("MAKE A USERNAME:\n\n"))
-        if username in self.users:
-            anim("USERNAME TAKEN. PLEASE PICK ANOTHER ONE.\n\n")
-            time.sleep(2)
-            self.signup()
-
-        password = input("MAKE A PASSWORD:\n\n")
-        hashed_password = self._hash_password(password)
-        self.users[username] = hashed_password
-        self._save_users()
-        print("USER SUCCESSFULLY REGISTERED")
-        return True
-
-    def login(self):
-        """
-        Logs in an existing user.
-        """
-        username = anim(input("USERNAME:\n\n"))
-        for i in self.users:
-        
-            if username not in i["username"]:
-                anim("USER DOES NOT EXIST!\n\n")
-                time.sleep(2)
-                self.login()
-            password = anim(input("PASSWORD:\n\n"))
-            hashed_password = self._hash_password(password)
-            if i["password"] == hashed_password:
-                anim("LOG IN SUCCESS!")
-                return True
-            else:
-                anim("PASSWORD IS INCORRECT")
-                return False
-
-
 class Game:
     cache = ""
 
@@ -194,33 +121,7 @@ if __name__ == "__main__":
     game.fullscreenprompt()
     game.beginninggraphic()
     
-    user_manager = UserManager()
-    
-    """ while True:
-        print("███╗     ██╗    ███╗       ██╗      ██████╗  ██████╗     ██╗███╗   ██╗    ██╗    ██╗    ██╗    ██╗   ██╗██████╗      █████╗  ██████╗ ██████╗")
-        print("██╔╝    ███║    ╚██║       ██║     ██╔═══██╗██╔════╝     ██║████╗  ██║    ██║    ██║   ██╔╝    ██║   ██║██╔══██╗    ██╔══██╗██╔════╝██╔════╝")
-        print("██║     ╚██║     ██║       ██║     ██║   ██║██║  ███╗    ██║██╔██╗ ██║    ██║ █╗ ██║  ██╔╝     ██║   ██║██████╔╝    ███████║██║     ██║     ")
-        print("██║      ██║     ██║       ██║     ██║   ██║██║   ██║    ██║██║╚██╗██║    ██║███╗██║ ██╔╝      ██║   ██║██╔══██╗    ██╔══██║██║     ██║     ")
-        print("███╗     ██║    ███║       ███████╗╚██████╔╝╚██████╔╝    ██║██║ ╚████║    ╚███╔███╔╝██╔╝       ╚██████╔╝██║  ██║    ██║  ██║╚██████╗╚██████╗")
-        print("╚══╝     ╚═╝    ╚══╝       ╚══════╝ ╚═════╝  ╚═════╝     ╚═╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚═╝         ╚═════╝ ╚═╝  ╚═╝    ╚═╝  ╚═╝ ╚═════╝ ╚═════╝")
-        print("")
-        print("███╗    ██████╗     ███╗    ███████╗██╗ ██████╗ ███╗   ██╗    ██╗   ██╗██████╗     ███████╗ ██████╗ ██████╗     ███╗   ██╗███████╗██╗    ██╗     █████╗  ██████╗ ██████╗")
-        print("██╔╝    ╚════██╗    ╚██║    ██╔════╝██║██╔════╝ ████╗  ██║    ██║   ██║██╔══██╗    ██╔════╝██╔═══██╗██╔══██╗    ████╗  ██║██╔════╝██║    ██║    ██╔══██╗██╔════╝██╔════╝")
-        print("██║      █████╔╝     ██║    ███████╗██║██║  ███╗██╔██╗ ██║    ██║   ██║██████╔╝    █████╗  ██║   ██║██████╔╝    ██╔██╗ ██║█████╗  ██║ █╗ ██║    ███████║██║     ██║     ")
-        print("██║     ██╔═══╝      ██║    ╚════██║██║██║   ██║██║╚██╗██║    ██║   ██║██╔═══╝     ██╔══╝  ██║   ██║██╔══██╗    ██║╚██╗██║██╔══╝  ██║███╗██║    ██╔══██║██║     ██║     ")
-        print("███╗    ███████╗    ███║    ███████║██║╚██████╔╝██║ ╚████║    ╚██████╔╝██║         ██║     ╚██████╔╝██║  ██║    ██║ ╚████║███████╗╚███╔███╔╝    ██║  ██║╚██████╗╚██████╗")
-        choice = input("╚══╝    ╚══════╝    ╚══╝    ╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝     ╚═════╝ ╚═╝         ╚═╝      ╚═════╝ ╚═╝  ╚═╝    ╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝\n")
-        
-        if choice == '1':
-            user_manager.login()
-        elif choice == '2':
-            while not user_manager.signup():
-                pass
-        elif choice == '3':
-            print("E X I T I N G")
-            break
-        else:
-            print("P L E A S E   I N P U T   E I T H E R   [1]   O R   [2]!") """
+
 
 Dialogue.start()
 Worlds.mainground()
