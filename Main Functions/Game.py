@@ -1,5 +1,6 @@
 import time, sys, os
 from Prologue import Dialogue, Worlds
+from map import Maps
 
 delay_input = input("Enter delay in seconds before everything starts (0 for default): ")
 try:
@@ -142,19 +143,19 @@ class Game:
 
 if __name__ == "__main__":
     os.system('cls')
-    game = Game(delay)
-    game.reload()
+    Game = Game(delay)
+    Game.reload()
     anim("                                                              P L E A S E    P L A Y    O N    M A X I M U M    T E R M I N A L    W I N D O W    ")
     time.sleep(0.25)
     anim("\n")
     time.sleep(0.5)
     anim("                                                                               trigger warnings: bright flashes, jumpscares    ")
     time.sleep(1)
-    game.fullscreenprompt()
+    Game.fullscreenprompt()
 
 
     # Apply delay
-    game.beginninggraphic(delay)
+    Game.beginninggraphic(delay)
     
     # Start Dialogue and Worlds
     Dialogue.start()
