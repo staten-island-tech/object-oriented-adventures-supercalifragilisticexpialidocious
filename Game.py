@@ -1,8 +1,7 @@
-import time, sys, os
-from Prologue import Dialogue, Worlds
+import time, os, subprocess
+from Prologue import Dialogue
 
-
-def anim(text, delay=0.0375):
+def anim(text, delay=0.02):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(delay)
@@ -34,18 +33,7 @@ class Game:
                 
         terminalfullscreen()
 
-    def loadinganimation(self, iterations=1, delay=0.01):
-        chars = "/—\\|"
-        for _ in range(iterations):
-            for char in chars:
-                sys.stdout.write(f"\rLoading {char}")
-                sys.stdout.flush()
-                time.sleep(delay)
-
-    def beginninggraphic(self, delay=0.3):
-        os.system("cls")
-
-        self.loadinganimation(3, delay)
+    def beginninggraphic(self, delay=0.03):
         os.system("cls")
         print("                                                                                    **#%%@%* ")
         print("                                                                                    =**%%%%@@%%*")  
@@ -96,14 +84,11 @@ class Game:
         print("                                                                                              #@@%%%@%%%-                                                                      ")
         print("                                                                                             -@@@%@%=                                                                          \n")
         anim("\n T E X T   B A S E D   G A M E   P R O D U C T I O N   B Y   P D . 6   W E N   Q I A N   Z H E N G   A N D   S A R A H   S H A O")
-
-        os.system("cls")
-        self.loadinganimation(1, 0.01)  # Use loadinganimation with the same iterations
+        time.sleep(0.75)
         os.system("cls")
 
-        time.sleep(delay)  # Apply delay before proceeding further
+        time.sleep(delay)
 
-        self.loadinganimation(1, 0.01)  # Use loadinganimation with the same iterations
         os.system("cls")
 
 if __name__ == "__main__":
@@ -116,9 +101,9 @@ if __name__ == "__main__":
     game.fullscreenprompt()
 
 
-    # Apply delay
     game.beginninggraphic(1)
-    
-    # Start Dialogue and Worlds
     Dialogue.start()
-    Worlds.mainground()
+    
+    print("\nLaunching map...")
+    time.sleep(2)
+    subprocess.run(["python", "map.py"])
