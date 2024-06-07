@@ -1,163 +1,64 @@
-[
-    {
-        "WeaponName": "Umbrella",
-        "Rarity": "Common",
+{
+    "Common": {
         "AttackPower": 1.075,
-        "Description": "Complimentary stick to go with your hydrophobic coat. +7.5% ATTACK POWER"
+        "Weapons": [
+            {"WeaponName": "Umbrella", "Description": "Complimentary stick to go with your hydrophobic coat. +7.5% ATTACK POWER"},
+            {"WeaponName": "Long Fungus", "Description": "Very very very long mushroom supercalifragilisticexpialidocious for whacking. +7.5% ATTACK POWER"},
+            {"WeaponName": "Hammer", "Description": "Not made of ham +7.5% ATTACK POWER"},
+            {"WeaponName": "Pencil", "Description": "Pencil is stronger than the sword or something like that. +7.5% ATTACK POWER"},
+            {"WeaponName": "Selfie Stick", "Description": "Useful for when your enemy has body dysmorphia. +7.5% ATTACK POWER"}
+        ]
     },
-    {
-        "WeaponName": "Long Fungus",
-        "Rarity": "Common",
-        "AttackPower": 1.075,
-        "Description": "Very very very long mushroom supercalifragilisticexpialidocious for whacking. +7.5% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Hammer",
-        "Rarity": "Common",
-        "AttackPower": 1.075,
-        "Description": "Not made of ham +7.5% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Pencil",
-        "Rarity": "Common",
-        "AttackPower": 1.075,
-        "Description": "Pencil is stronger than the sword or something like that. +7.5% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Selfie Stick",
-        "Rarity": "Common",
-        "AttackPower": 1.075,
-        "Description": "Useful for when your enemy has body dysmorphia. +7.5% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Energy Staff",
-        "Rarity": "Rare",
+    "Rare": {
         "AttackPower": 1.45,
-        "Description": "Did you know that a typical microwave uses more electricity to keep its digital clock on standby than it does heating food? +45.0% ATTACK POWER"
+        "Weapons": [
+            {"WeaponName": "Energy Staff", "Description": "Did you know that a typical microwave uses more electricity to keep its digital clock on standby than it does heating food? +45.0% ATTACK POWER"},
+            {"WeaponName": "Rock Guitar", "Description": "You may choose between earbleeding or to smash it on your opponent's head. +45.0% ATTACK POWER"},
+            {"WeaponName": "Big Scissors", "Description": "Why were these invented +45.0% ATTACK POWER"},
+            {"WeaponName": "Big Pokey Fork", "Description": "...Or you can just call it a pitchfork. +45.0% ATTACK POWER"},
+            {"WeaponName": "Hockey Stick", "Description": "Except you're not gonna play hockey with it. +45.0% ATTACK POWER"}
+        ]
     },
-    {
-        "WeaponName": "Rock Guitar",
-        "Rarity": "Rare",
-        "AttackPower": 1.45,
-        "Description": "You may choose between earbleeding or to smash it on your opponent's head. +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Big Scissors",
-        "Rarity": "Rare",
-        "AttackPower": 1.45,
-        "Description": "Why were these invented +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Big Pokey Fork",
-        "Rarity": "Rare",
-        "AttackPower": 1.45,
-        "Description": "...Or you can just call it a pitchfork. +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Hockey Stick",
-        "Rarity": "Rare",
-        "AttackPower": 1.45,
-        "Description": "Except you're not gonna play hockey with it. +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Dual Blade",
-        "Rarity": "Epic",
+    "Epic": {
         "AttackPower": 1.6,
-        "Description": "Not just one blade, but TWO BIG BLADES!!1!11 +60.0% ATTACK POWER"
+        "Weapons": [
+            {"WeaponName": "Dual Blade", "Description": "Not just one blade, but TWO BIG BLADES!!1!11 +60.0% ATTACK POWER"},
+            {"WeaponName": "Frosted Spear", "Description": "A tuff weapon that radiates snowflakes. Somehow you are unaffected. +60.0% ATTACK POWER"},
+            {"WeaponName": "Flame Staff", "Description": "Radiates flames. Perfect for toasting Marshmallow Armor. +60.0% ATTACK POWER"},
+            {"WeaponName": "Raider's Staff", "Description": "The powerful ancient staff inherited from mauderers. +60.0% ATTACK POWER"},
+            {"WeaponName": "Plasma Drill", "Description": "Spinny drill capable of some serious damage. +60.0% ATTACK POWER"}
+        ]
     },
-    {
-        "WeaponName": "Frosted Spear",
-        "Rarity": "Epic",
-        "AttackPower": 1.6,
-        "Description": "A tuff weapon that radiates snowflakes. Somehow you are unaffected. +60.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Flame Staff",
-        "Rarity": "Epic",
-        "AttackPower": 1.6,
-        "Description": "Radiates flames. Perfect for toasting Marshmallow Armor. +60.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Raider's Staff",
-        "Rarity": "Epic",
-        "AttackPower": 1.6,
-        "Description": "The powerful ancient staff inherited from mauderers. +60.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Plasma Drill",
-        "Rarity": "Epic",
-        "AttackPower": 1.6,
-        "Description": "Spinny drill capable of some serious damage. +60.0% ATTACK POWER"
-    },{
-        "WeaponName": "Draconyx",
-        "Rarity": "Ultra",
+    "Ultra": {
         "AttackPower": 1.45,
-        "Description": "If you wear this you're a furry. +45.0% ATTACK POWER"
+        "Weapons": [
+            {"WeaponName": "Draconyx", "Description": "If you wear this you're a furry. +45.0% ATTACK POWER"},
+            {"WeaponName": "Phoenix Talon", "Description": "Please don't scratch me. +45.0% ATTACK POWER"},
+            {"WeaponName": "Mechano Mace", "Description": "Go you, defend yourself! +45.0% ATTACK POWER"},
+            {"WeaponName": "Moon Wand", "Description": "You're a little fairy! +45.0% ATTACK POWER"},
+            {"WeaponName": "Thunderbuster", "Description": "Go bust that thunder like ghostbusters! +45.0% ATTACK POWER"}
+        ]
     },
-    {
-        "WeaponName": "Phoenix Talon",
-        "Rarity": "Ultra",
-        "AttackPower": 1.45,
-        "Description": "Please don't scratch me. +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Mechano Mace",
-        "Rarity": "Ultra",
-        "AttackPower": 1.45,
-        "Description": "Go you, defend yourself! +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Moon Wand",
-        "Rarity": "Ultra",
-        "AttackPower":1.45,
-        "Description": "You're a little fairy! +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Thunderbuster",
-        "Rarity":"Ultra",
-        "AttackPower":1.45,
-        "Description": "Go bust that thunder like ghostbusters! +45.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Watermelon on a stick",
-        "Rarity": "Legendary",
+    "Legendary": {
         "AttackPower": 1.6,
-        "Description": "Like tanghulu but plz don't eat. +60.0% ATTACK POWER"
+        "Weapons": [
+            {"WeaponName": "Watermelon on a stick", "Description": "Like tanghulu but plz don't eat. +60.0% ATTACK POWER"},
+            {"WeaponName": "Sun Orb Staff", "Description": "Bro thinks they're holding the sun. +60.0% ATTACK POWER"}
+        ]
     },
-    {
-        "WeaponName": "Sun Orb Staff",
-        "Rarity":"Legendary",
-        "AttackPower":1.6,
-        "Description":"Bro thinks they're holding the sun. +60.0% ATTACK POWER"
+    "Mythical": {
+        "AttackPower": 1.75,
+        "Weapons": [
+            {"WeaponName": "Onyx Staff", "Description": "This does not spawn onyx the pokemon boohoo. +75.0% ATTACK POWER"},
+            {"WeaponName": "Trident", "Description": "You can put Riptide on it and fly! +75.0% ATTACK POWER"},
+            {"WeaponName": "S'mores wand", "Description": "The marshmellow is burnt. +75.0% ATTACK POWER"}
+        ]
     },
-    {
-        "WeaponName": "Onyx Staff",
-        "Rarity":"Mythical",
-        "AttackPower":1.75,
-        "Description": "This does not spawn onyx the pokemon boohoo. +75.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Trident",
-        "Rarity": "Mythical",
-        "AttackPower":1.75,
-        "Description": "You can put Riptide on it and fly! +75.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "S'mores wand",
-        "Rarity":"Mythical",
-        "AttackPower":1.75,
-        "Description": "The marshmellow is burnt. +75.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Valhalla Staff",
-        "Rarity": "???",
+    "???": {
         "AttackPower": 2.5,
-        "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"
-    },
-    {
-        "WeaponName": "Pyrium Staff",
-        "Rarity": "???",
-        "AttackPower": 2.5,
-        "Description": "What does Pyrium even mean the word was just cool. +250.0% ATTACK POWER"
+        "Weapons": [
+            {"WeaponName": "Valhalla Staff", "Description": "The big buff staff for big buff warriors. +250.0% ATTACK POWER"},
+            {"WeaponName": "Pyrium Staff", "Description": "What does Pyrium even mean the word was just cool. +250.0% ATTACK POWER"}
+        ]
     }
-] 
+}

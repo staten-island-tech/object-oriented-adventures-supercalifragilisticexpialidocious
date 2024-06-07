@@ -1,0 +1,65 @@
+
+{
+    "Common": {
+        "Protection": 1.075,
+        "Armors": [
+            {"ArmorName": "Raincoat", "Description": "Quirky hydrophobic coat. +7.5% PROTECTION"},
+            {"ArmorName": "Mushroom Armor", "Description": "EDIBLE ARMOR HURAY +7.5% PROTECTION"},
+            {"ArmorName": "Steel Armor", "Description": "Car bodies and building frames. +7.5% PROTECTION"},
+            {"ArmorName": "Rubber Eraser", "Description": "If wearing mushrooms wasnt weird, wearing an eraser is. +7.5% PROTECTION"},
+            {"ArmorName": "Polaroid Armor", "Description": "You think wearing Polaroid Cameras polymorphs you into cameramen from Skobodo Toilet. +7.5% PROTECTION"}
+        ]
+    },
+    "Rare": {
+        "Protection": 1.15,
+        "Armors": [
+            {"ArmorName": "Energy Armor", "Description": "Swirly massless yellow whirlies steadily increasing your adrenaline super duper deflective. +15.0% PROTECTION"},
+            {"ArmorName": "Punk Armor", "Description": "The Jojo Siwa Karma rizzless equipment no lesbian nor straight wants you. +15.0% PROTECTION"},
+            {"ArmorName": "Boulder", "Description": "A large rock. Pretty snug for a rock. +15.0% PROTECTION"},
+            {"ArmorName": "Porcelain Armor", "Description": "Fragile armor but tuff asl. +15.0% PROTECTION"},
+            {"ArmorName": "Hockey Jersey", "Description": "Not armor but gives muscle growth. +15.0% PROTECTION"}
+        ]
+    },
+    "Epic": {
+        "Protection": 1.3,
+        "Armors": [
+            {"ArmorName": "Duals Gear", "Description": "An armor for two! Your durability has seemingly doubled... +30.0% PROTECTION"},
+            {"ArmorName": "Frosted Gear", "Description": "SHIVREm E TIMBRE +30.0% PROTECTION"},
+            {"ArmorName": "Fire Armor", "Description": "Flaming protection burning at a thousand degrees. Can melt MOST stuff including bluberiebrieues +30.0% PROTECTION"},
+            {"ArmorName": "Raider's Armor", "Description": "Inherited from a brethren mauderer from thousands of years ago. You inherited their left shoe. +30.0% PROTECTION"},
+            {"ArmorName": "Plasma Armor", "Description": "Not a liquid, solid, nor a gas. How was this forged? +30.0% PROTECTION"}
+        ]
+    },
+    "Ultra": {
+        "Protection": 1.45,
+        "Armors": [
+            {"ArmorName": "Draconyx Gear", "Description": "Inherited from ancient battling mages and powerful wizards. It doesn't fit you. +45.0% PROTECTION"},
+            {"ArmorName": "Phoenix armor", "Description": "Wow you can fly! +27.5% PROTECTION"},
+            {"ArmorName": "Mechanic Gear", "Description": "Armor just like your dad! +27.5% PROTECTION"},
+            {"ArmorName": "Moon Shield", "Description": "Hopefully the sun doesn't reflect its light on you. +27.5% PROTECTION"},
+            {"ArmorName": "Thunder Gear", "Description": "You're actually Zeus. +27.5% PROTECTION"}
+        ]
+    },
+    "Legendary": {
+        "Protection": 1.6,
+        "Armors": [
+            {"ArmorName": "BIGG WATERMELON", "Description": "Eat your fruits. +60.0% PROTECTION"},
+            {"ArmorName": "Sun Shield", "Description": "Who's that hottie in the room? +60.0% PROTECTION"}
+        ]
+    },
+    "Mythical": {
+        "Protection": 1.75,
+        "Armors": [
+            {"ArmorName": "Onyx Armor", "Description": "Bro thinks they're a pokemon. +75.0% PROTECTION"},
+            {"ArmorName": "Ocean Armor", "Description": "Part the seas !! +75.0% PROTECTION"},
+            {"ArmorName": "Marshmellow Costume", "Description": "I should take a bite out of my armor. +75.0% PROTECTION"}
+        ]
+    },
+    "???": {
+        "Protection": 2.5,
+        "Armors": [
+            {"ArmorName": "Valhalla Armor", "Description": "Omg you're a warrior. +250.0% PROTECTION"},
+            {"ArmorName": "Pyrium Armor", "Description": "Honestly the ppl behind the game have no idea what this means. +250.0% PROTECTION"}
+        ]
+    }
+}

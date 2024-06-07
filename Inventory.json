@@ -1,1 +1,54 @@
-[]
+{
+    "Weapons": [
+        {
+            "WeaponName": "Energy Staff",
+            "Description": "Did you know that a typical microwave uses more electricity to keep its digital clock on standby than it does heating food? +45.0% ATTACK POWER"
+        },
+        {
+            "WeaponName": "Phoenix Talon",
+            "Description": "Please don't scratch me. +45.0% ATTACK POWER"
+        },
+        {
+            "WeaponName": "Selfie Stick",
+            "Description": "Useful for when your enemy has body dysmorphia. +7.5% ATTACK POWER"
+        },
+        {
+            "WeaponName": "Raider's Staff",
+            "Description": "The powerful ancient staff inherited from mauderers. +60.0% ATTACK POWER"
+        },
+        {
+            "WeaponName": "Long Fungus",
+            "Description": "Very very very long mushroom supercalifragilisticexpialidocious for whacking. +7.5% ATTACK POWER"
+        },
+        {
+            "WeaponName": "Flame Staff",
+            "Description": "Radiates flames. Perfect for toasting Marshmallow Armor. +60.0% ATTACK POWER"
+        },
+        {
+            "WeaponName": "Pencil",
+            "Description": "Pencil is stronger than the sword or something like that. +7.5% ATTACK POWER"
+        }
+    ],
+    "Armors": [
+        {
+            "ArmorName": "Rubber Eraser",
+            "Description": "If wearing mushrooms wasnt weird, wearing an eraser is. +7.5% PROTECTION"
+        },
+        {
+            "ArmorName": "Steel Armor",
+            "Description": "Car bodies and building frames. +7.5% PROTECTION"
+        }
+    ],
+    "Pets": [
+        {
+            "PetName": "Butterfly",
+            "Description": "Their symmetry is beautiful. +15.0% GLOWSTONES"
+        },
+        {
+            "PetName": "Mouse",
+            "Description": "Hopefully it doesn't get eaten by a cat. +7.5% GLOWSTONES"
+        }
+    ],
+    "Glowstones": 450,
+    "GachaTickets": 0
+}
