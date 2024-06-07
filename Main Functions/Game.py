@@ -1,5 +1,6 @@
 import time, sys, os
 from Prologue import Dialogue, Worlds
+from map import Maps
 
 
 def anim(text, delay=0.0375):
@@ -109,16 +110,25 @@ class Game:
 
 if __name__ == "__main__":
     os.system('cls')
+<<<<<<< HEAD
     game = Game()
     game.reload()
+=======
+    Game = Game(delay)
+    Game.reload()
+>>>>>>> 610d63a2d1840f5fa3c91fd0aa6ef5caf332bb2b
     anim("                                                              P L E A S E    P L A Y    O N    M A X I M U M    T E R M I N A L    W I N D O W    ")
     print("\n")
     time.sleep(1)
-    game.fullscreenprompt()
+    Game.fullscreenprompt()
 
 
     # Apply delay
+<<<<<<< HEAD
     game.beginninggraphic(1)
+=======
+    Game.beginninggraphic(delay)
+>>>>>>> 610d63a2d1840f5fa3c91fd0aa6ef5caf332bb2b
     
     # Start Dialogue and Worlds
     Dialogue.start()
