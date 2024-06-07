@@ -1,12 +1,9 @@
 import random, os
-
-#maingrounds
-
 playerCoords = [0, 1]
-mapSize = [35, 80]
+mapSize = [40, 100]
 keybinds = ["W", "A", "S", "D"]
 def clear(): os.system("cls")
-map = [['|' if i in [0] else '  ' for i in range(80)] for _ in range(35)]
+map = [['|' if i in [0] else '  ' for i in range(100)] for _ in range(40)]
 for row in map: 
         if map.index(row) == 3:
             for i in range(15,26):
@@ -18,20 +15,18 @@ for row in map:
             row[49] = " ."
         if map.index(row) == 1:
             row[15] = "."
-            row[24] =  "A R S E N A L   A N D   G E A R"
-            row[35] = " ."
+            for a in range(23,60):
+                row[a] = "🤺   A R S E N A L   A N D   G E A R  🔪"[a - 23]
+            row[67] = "."
         if map.index(row) == 2:
             row[15] = "."
             row[49] = " ."
         if random.randint(1,2) == 1:
             row[random.randint(1, 14)] = '🌲'
-            row[random.randint(50, 78)] = '🌲'        
+            row[random.randint(50, 98)] = '🌲'        
         if random.randint(1,10) == 1:
             row[random.randint(1, 14)] = "🔷"
-            row[random.randint(50, 78)] = "🔷"
-
-
-
+            row[random.randint(50, 98)] = "🔷"
 
 def print_map(): 
     for row in map: 
