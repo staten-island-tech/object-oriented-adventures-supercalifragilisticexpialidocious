@@ -1,6 +1,5 @@
 import time, sys, os
 from Prologue import Dialogue, Worlds
-from map import Maps
 
 
 def anim(text, delay=0.0375):
@@ -96,39 +95,29 @@ class Game:
         print("                                                                                               =%@%@%%@@@@+                                                                    ")
         print("                                                                                              #@@%%%@%%%-                                                                      ")
         print("                                                                                             -@@@%@%=                                                                          \n")
-        time.sleep(2)
         anim("\n T E X T   B A S E D   G A M E   P R O D U C T I O N   B Y   P D . 6   W E N   Q I A N   Z H E N G   A N D   S A R A H   S H A O")
 
         os.system("cls")
-        self.loadinganimation(1, delay)  # Use loadinganimation with the same iterations
+        self.loadinganimation(1, 0.01)  # Use loadinganimation with the same iterations
         os.system("cls")
 
         time.sleep(delay)  # Apply delay before proceeding further
 
-        self.loadinganimation(1, delay)  # Use loadinganimation with the same iterations
+        self.loadinganimation(1, 0.01)  # Use loadinganimation with the same iterations
         os.system("cls")
 
 if __name__ == "__main__":
     os.system('cls')
-<<<<<<< HEAD
     game = Game()
     game.reload()
-=======
-    Game = Game(delay)
-    Game.reload()
->>>>>>> 610d63a2d1840f5fa3c91fd0aa6ef5caf332bb2b
     anim("                                                              P L E A S E    P L A Y    O N    M A X I M U M    T E R M I N A L    W I N D O W    ")
     print("\n")
     time.sleep(1)
-    Game.fullscreenprompt()
+    game.fullscreenprompt()
 
 
     # Apply delay
-<<<<<<< HEAD
     game.beginninggraphic(1)
-=======
-    Game.beginninggraphic(delay)
->>>>>>> 610d63a2d1840f5fa3c91fd0aa6ef5caf332bb2b
     
     # Start Dialogue and Worlds
     Dialogue.start()
