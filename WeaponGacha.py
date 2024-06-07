@@ -35,11 +35,6 @@ class WeaponGacha:
             json.dump(inventory, file, indent=4)
 
     def gacha(self):
-<<<<<<< HEAD
-        random_number = random.uniform(0, 100)
-        cumulative_probability = 0
-        selected_rarity = None
-=======
         print("Welcome to the Weapon Gacha!")
         choice = input("Would you like to use your gacha ticket? (yes/no): ")
         if choice.lower() == "yes":
@@ -67,7 +62,6 @@ class WeaponGacha:
             print("Exiting gacha.")
         else:
             print("Invalid choice. Exiting gacha.")
->>>>>>> 610d63a2d1840f5fa3c91fd0aa6ef5caf332bb2b
 
         for rarity, probability in self.drop_rates.items():
             cumulative_probability += probability
