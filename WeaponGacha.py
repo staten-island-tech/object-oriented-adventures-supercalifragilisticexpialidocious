@@ -2,7 +2,7 @@ import random
 import json
 
 class WeaponGacha:
-    def init(self):
+    def __init__(self):
         with open("Weapons.json", encoding="utf8") as file:
             self.weapons_data = json.load(file)
 
@@ -15,6 +15,8 @@ class WeaponGacha:
             "Rare": 27.5,
             "Common": 37.5
         }
+
+        print(self.drop_rates)
 
     def add_item_to_inventory(self, item):
         with open("Inventory.json", "r") as file:
@@ -155,6 +157,7 @@ class NPC:
 
     def welcome_message(self):
         print("Welcome! What would you like to do?")
+        print("ya lyublyu skbiidi otielt")
         print("1. Weapon Gacha")
         print("2. Armor Gacha")
         print("3. Pet Gacha")
