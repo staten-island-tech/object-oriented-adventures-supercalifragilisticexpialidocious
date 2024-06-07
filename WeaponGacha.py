@@ -240,7 +240,7 @@ class NPC:
         print("2. Armor Gacha")
         print("3. Pet Gacha")
         print("4. Buy Gacha Ticket")
-        print("5. Exit")
+        print("5. Exit to main map")
 
     def interact(self):
         while True:
