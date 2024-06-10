@@ -1,4 +1,4 @@
-import time, os, subprocess
+import time, os, map
 from Prologue import Dialogue
 
 def anim(text, delay=0.02):
@@ -106,4 +106,4 @@ if __name__ == "__main__":
     
     print("\nLaunching map...")
     time.sleep(2)
-    subprocess.run(["python", "map.py"])
+    CurrentMap = map.Maps.map("🌊", "🪸","🐠","⭐","🕴🏻","🟩")

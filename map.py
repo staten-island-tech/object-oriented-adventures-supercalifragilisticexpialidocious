@@ -1,6 +1,7 @@
-import random, os, json, time, WeaponGacha
+import random, os, json, time
+from GachaSystem import GachaSystem
 
-class Game:
+class GameThing:
     def __init__(self):
         self.player_hp = 200
         self.player_attack = 20
@@ -152,9 +153,11 @@ class NPC:
         elif x == 10:
             print("Kendrick: Drake is a MEANIE WEANIE")
 
-
-class Maps():
+class Maps:
+    @staticmethod
     def map(setting, setting2, setting3, glowstones, NPCS, enemies):
+        GachaSystem.NPC().interact()
+
         playerCoords = [0, 1]
         mapSize = [40, 100]
         def clear(): os.system("cls")
@@ -172,13 +175,14 @@ class Maps():
                     row[random.randint(1, 98)] = f"{NPCS}"
                 if random.randint(1, 13) == 1:
                     row[random.randint(1, 98)] = f"{enemies}"
-                
+        map_grid[playerCoords[0]][playerCoords[1]] = "🟥"
+
         def load_data():
-            with open('data.json', 'r') as f:
+            with open('Inventory.json', 'r') as f:
                 return json.load(f)
         
         def save_data(data):
-            with open('data.json', 'w') as f:
+            with open('Inventory.json', 'w') as f:
                 json.dump(data, f, indent=4)
 
         def print_map(): 
@@ -186,35 +190,37 @@ class Maps():
                 print(''.join(row))
 
         while True: 
-            map_grid[playerCoords[0]][playerCoords[1]] = "🟥"
             clear()
             print_map()
             whereToGo = input("W/A/S/D to move: ").upper()
-            if whereToGo == "W" and playerCoords[0] - 1 >= 0 and map_grid[playerCoords[0] - 1][playerCoords[1]] not in {setting, f"{setting3}"}:
-                map_grid[playerCoords[0]][playerCoords[1]] = "  " 
-                playerCoords[0] -= 1
-            elif whereToGo == "A" and map_grid[playerCoords[0]][playerCoords[1] - 1] not in ["|", f"{setting}", f"{setting2}"]:
-                map_grid[playerCoords[0]][playerCoords[1]] = "  "
-                playerCoords[1] -= 1
-            elif whereToGo == "S" and playerCoords[0] + 1 < mapSize[0] and map_grid[playerCoords[0] + 1][playerCoords[1]] not in {setting, f"{setting3}"}:
-                map_grid[playerCoords[0]][playerCoords[1]] = "  "
-                playerCoords[0] += 1
-            elif whereToGo == "D" and playerCoords[1] + 1 < mapSize[1] and map_grid[playerCoords[0]][playerCoords[1] + 1] not in ["|", f"{setting}", f"{setting2}", f"{setting3}"]:
-                map_grid[playerCoords[0]][playerCoords[1]] = "  "
+            nextCoords = list(playerCoords)
+            if whereToGo == "W" and nextCoords[0] - 1 >= 0:
+                nextCoords[0] -= 1
+            elif whereToGo == "A":
+                nextCoords[1] -= 1
+            elif whereToGo == "S" and nextCoords[0] + 1 < mapSize[0]:
+                nextCoords[0] += 1
+            elif whereToGo == "D" and nextCoords[1] + 1 < mapSize[1]:
+                nextCoords[1] += 1
             elif whereToGo == "E":
                 os.system('cls')
-                WeaponGacha.NPC().interact()
-                playerCoords[1] += 1
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{glowstones}':
+                GachaSystem.NPC().interact()
+                nextCoords[1] += 1
+
+            nextCell = map_grid[nextCoords[0]][nextCoords[1]]
+            if nextCell not in ["|", f"{setting}", f"{setting2}", f"{setting3}"]:
+                map_grid[playerCoords[0]][playerCoords[1]] = "  "
+                playerCoords = list(nextCoords)
+                map_grid[playerCoords[0]][playerCoords[1]] = "🟥"
+            if nextCell == f'{glowstones}':
                 data = load_data()
                 data["Glowstones"] += 250
                 save_data(data)
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{NPCS}':
+            elif nextCell == f'{NPCS}':
+                os.system('cls')
                 npc = NPC()
                 npc.interact()
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{enemies}':
-                game_instance = Game()
+            elif nextCell == f'{enemies}':
+                os.system('cls')
+                game_instance = GameThing()
                 game_instance.start_fight()
-                map_grid[playerCoords[0]][playerCoords[1]] = "  "
-
-Maps.map("🌊", "🪸","🐠","⭐","🕴🏻","🟩")

@@ -36,8 +36,5 @@ class Usefulbots:
                 elif promo not in code["promocode"]:
                     print("That is not a promocode")
 
-
-
-
 Usefulbots.Sarah()
 
