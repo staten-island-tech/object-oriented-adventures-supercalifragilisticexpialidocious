@@ -1,22 +1,61 @@
 {
     "Weapons": [
         {
-            "WeaponName": "Hammer",
-            "Description": "Not made of ham +7.5% ATTACK POWER"
+            "WeaponName": "Big Pokey Fork",
+            "Description": "...Or you can just call it a pitchfork. +45.0% ATTACK POWER",
+            "M": 1.45
+        },
+        {
+            "WeaponName": "Long Fungus",
+            "Description": "Very very very long mushroom supercalifragilisticexpialidocious for whacking. +7.5% ATTACK POWER",
+            "M": 1.075
         },
         {
             "WeaponName": "Raider's Staff",
-            "Description": "The powerful ancient staff inherited from mauderers. +60.0% ATTACK POWER"
+            "Description": "The powerful ancient staff inherited from mauderers. +60.0% ATTACK POWER",
+            "M": 1.6
         }
     ],
-    "Armors": [],
+    "Armors": [
+        {
+            "ArmorName": "Rubber Eraser",
+            "Description": "If wearing mushrooms wasnt weird, wearing an eraser is. +7.5% PROTECTION",
+            "M": 1.075
+        },
+        {
+            "ArmorName": "Thunder Gear",
+            "Description": "You're actually Zeus. +27.5% PROTECTION",
+            "M": 1.45
+        },
+        {
+            "ArmorName": "Polaroid Armor",
+            "Description": "You think wearing Polaroid Cameras polymorphs you into cameramen from Skobodo Toilet. +7.5% PROTECTION",
+            "M": 1.075
+        },
+        {
+            "ArmorName": "Hockey Jersey",
+            "Description": "Not armor but gives muscle growth. +15.0% PROTECTION",
+            "M": 1.15
+        },
+        {
+            "ArmorName": "Boulder",
+            "Description": "A large rock. Pretty snug for a rock. +15.0% PROTECTION",
+            "M": 1.15
+        },
+        {
+            "ArmorName": "Energy Armor",
+            "Description": "Swirly massless yellow whirlies steadily increasing your adrenaline super duper deflective. +15.0% PROTECTION",
+            "M": 1.15
+        },
+        {
+            "ArmorName": "Fire Armor",
+            "Description": "Flaming protection burning at a thousand degrees. Can melt MOST stuff including bluberiebrieues +30.0% PROTECTION",
+            "M": 1.3
+        }
+    ],
     "Pets": [],
-<<<<<<< Updated upstream
     "Hp": 100,
     "Levels": 1,
-    "Glowstones": 450,
-=======
-    "Glowstones": 1497750,
->>>>>>> Stashed changes
-    "GachaTickets": 0
+    "Glowstones": 10000350,
+    "GachaTickets": 99988
 }

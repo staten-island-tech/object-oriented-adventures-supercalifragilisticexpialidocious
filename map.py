@@ -1,5 +1,5 @@
 import random, os, json, time
-from GachaSystem import GachaSystem
+import GachaSystem
 
 class GameThing:
     def __init__(self):
