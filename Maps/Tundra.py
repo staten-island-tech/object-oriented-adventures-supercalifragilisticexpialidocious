@@ -1,7 +1,5 @@
 import random, os
 
-#maingrounds
-
 playerCoords = [0, 1]
 mapSize = [35, 80]
 keybinds = ["W", "A", "S", "D"]

@@ -1,9 +1,22 @@
 {
-    "Weapons": [],
+    "Weapons": [
+        {
+            "WeaponName": "Hammer",
+            "Description": "Not made of ham +7.5% ATTACK POWER"
+        },
+        {
+            "WeaponName": "Raider's Staff",
+            "Description": "The powerful ancient staff inherited from mauderers. +60.0% ATTACK POWER"
+        }
+    ],
     "Armors": [],
     "Pets": [],
+<<<<<<< Updated upstream
     "Hp": 100,
     "Levels": 1,
     "Glowstones": 450,
+=======
+    "Glowstones": 1497750,
+>>>>>>> Stashed changes
     "GachaTickets": 0
 }
