@@ -190,17 +190,18 @@ class Maps():
             clear()
             print_map()
             whereToGo = input("W/A/S/D to move: ").upper()
-            if whereToGo == "W" and playerCoords[0] - 1 >= 0 and map_grid[playerCoords[0] - 1][playerCoords[1]] not in {setting, f"{setting3}"}:
+            if whereToGo == "W" and playerCoords[0] - 1 >= 0 and map_grid[playerCoords[0] - 1][playerCoords[1]] not in [setting, setting3]:
                 map_grid[playerCoords[0]][playerCoords[1]] = "  " 
                 playerCoords[0] -= 1
-            elif whereToGo == "A" and map_grid[playerCoords[0]][playerCoords[1] - 1] not in ["|", f"{setting}", f"{setting2}"]:
+            elif whereToGo == "A" and map_grid[playerCoords[0]][playerCoords[1] - 1] not in ["|", setting, setting2]:
                 map_grid[playerCoords[0]][playerCoords[1]] = "  "
                 playerCoords[1] -= 1
-            elif whereToGo == "S" and playerCoords[0] + 1 < mapSize[0] and map_grid[playerCoords[0] + 1][playerCoords[1]] not in {setting, f"{setting3}"}:
+            elif whereToGo == "S" and playerCoords[0] + 1 < mapSize[0] and map_grid[playerCoords[0] + 1][playerCoords[1]] not in [setting, setting3]:
                 map_grid[playerCoords[0]][playerCoords[1]] = "  "
                 playerCoords[0] += 1
-            elif whereToGo == "D" and playerCoords[1] + 1 < mapSize[1] and map_grid[playerCoords[0]][playerCoords[1] + 1] not in ["|", f"{setting}", f"{setting2}", f"{setting3}"]:
+            elif whereToGo == "D" and playerCoords[1] + 1 < mapSize[1] and map_grid[playerCoords[0]][playerCoords[1] + 1] not in ["|", setting, setting2, setting3]:
                 map_grid[playerCoords[0]][playerCoords[1]] = "  "
+                playerCoords[1] += 1
             elif whereToGo == "E":
                 os.system('cls')
                 WeaponGacha.NPC().interact()
