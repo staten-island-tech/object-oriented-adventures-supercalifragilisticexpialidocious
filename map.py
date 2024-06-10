@@ -204,7 +204,6 @@ class Maps:
                 nextCoords[1] += 1
             elif whereToGo == "E":
                 os.system('cls')
-<<<<<<< Updated upstream
                 GachaSystem.NPC().interact()
                 nextCoords[1] += 1
 
@@ -214,11 +213,6 @@ class Maps:
                 playerCoords = list(nextCoords)
                 map_grid[playerCoords[0]][playerCoords[1]] = "🟥"
             if nextCell == f'{glowstones}':
-=======
-                WeaponGacha.NPC().interact()
-                playerCoords[1]
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{glowstones}':
->>>>>>> Stashed changes
                 data = load_data()
                 data["Glowstones"] += 250
                 save_data(data)
@@ -226,16 +220,7 @@ class Maps:
                 os.system('cls')
                 npc = NPC()
                 npc.interact()
-<<<<<<< Updated upstream
             elif nextCell == f'{enemies}':
                 os.system('cls')
                 game_instance = GameThing()
                 game_instance.start_fight()
-=======
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{enemies}':
-                game_instance = Game()
-                game_instance.start_fight()
-                map_grid[playerCoords[0]][playerCoords[1]] = "  "
-
-Maps.map("🌊", "🪸", "🐠", "⭐", "🕴🏻", "🟩")
->>>>>>> Stashed changes
