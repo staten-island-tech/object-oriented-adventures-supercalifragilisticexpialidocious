@@ -258,9 +258,11 @@ class NPC:
             elif choice == "5":
                 print("Bye!")
                 print("Goodbye!")
+                '''
                 with open("map.py", encoding="utf-8") as map_file:
                     code = map_file.read()
                 exec(code)
+                '''
                 break
             else:
                 WeaponGacha.anim("Please select 1, 2, 3, 4, or 5.")

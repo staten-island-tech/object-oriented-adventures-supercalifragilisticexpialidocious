@@ -206,16 +206,18 @@ class Maps():
                 os.system('cls')
                 WeaponGacha.NPC().interact()
                 playerCoords[1] += 1
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{glowstones}':
+            if map_grid[playerCoords[0]][playerCoords[1]] == glowstones:
                 data = load_data()
                 data["Glowstones"] += 250
                 save_data(data)
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{NPCS}':
+            elif map_grid[playerCoords[0]][playerCoords[1]] == NPCS:
                 npc = NPC()
                 npc.interact()
-            elif map_grid[playerCoords[0]][playerCoords[1]] == f'{enemies}':
+            elif map_grid[playerCoords[0]][playerCoords[1]] == enemies:
                 game_instance = Game()
                 game_instance.start_fight()
                 map_grid[playerCoords[0]][playerCoords[1]] = "  "
+                
+
 
 Maps.map("🌊", "🪸","🐠","⭐","🕴🏻","🟩")
